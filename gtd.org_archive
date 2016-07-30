@@ -1,0 +1,44 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/zgq/org-notes/gtd.org
+
+
+* DONE [#B] shave						    :ARCHIVE:
+  - State "DONE"       from "TODO"       [2016-06-29 Wed 16:55] \\
+    hibit
+  CLOCK: [2016-06-28 Tue 22:57]--[2016-06-28 Tue 22:59] =>  0:02
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-07-01 Fri 15:44
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: 工作安排
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#A] buy phone
+  DEADLINE: <2016-06-29 Wed 20:05> SCHEDULED: <2016-06-29 Wed 19:55>
+  - State "DONE"       from "TODO"       [2016-06-29 Wed 20:26] \\
+    shit.
+  CLOCK: [2016-06-29 Wed 16:56]--[2016-06-29 Wed 16:57] =>  0:01
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-07-01 Fri 16:24
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: 工作安排
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#B] Change transfer way of repo created by hub
+git config --global hub.protocol ssh 
+CLOSED: [2016-07-19 Tue 18:39]
+- State "DONE"       from "TODO"       [2016-07-19 Tue 18:39]
+CLOCK: [2016-07-17 Sun 15:11]--[2016-07-17 Sun 15:13] =>  0:02
+:PROPERTIES:
+:ARCHIVE_TIME: 2016-07-19 Tue 18:43
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Problems
+:ARCHIVE_CATEGORY: gtd
+:ARCHIVE_TODO: DONE
+:END:
+

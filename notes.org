@@ -1,0 +1,224 @@
+* Quick notes
+** Using [0%] to statistics development 			       :NOTE:
+   CLOCK: [2016-07-01 Fri 23:44]--[2016-07-01 Fri 23:46] =>  0:02
+   Locate cursor to [%] ,then press ctrl+c ctrl+c to update progress.
+** TODO [#C] Org mode introduction
+   http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html#sec-3-4-1
+   [2016-07-02 Sat 01:26]
+
+** Ctrl + s will lock terminal to no response for any operation!       :NOTE:
+   CLOCK: [2016-07-02 Sat 17:05]--[2016-07-02 Sat 17:06] =>  0:01
+   Ctrl + q will unlock
+** Compared to digit using	-gt -eq in shell 		       :NOTE:
+   CLOCK: [2016-07-02 Sat 17:07]--[2016-07-02 Sat 17:08] =>  0:01
+** Input .v.b.l then press tab can match .vimrc.before.local quickly   :NOTE:
+   CLOCK: [2016-07-02 Sat 21:56]--[2016-07-02 Sat 21:57] =>  0:01
+** triple 							       :NOTE:
+								       CLOCK: [2016-07-03 Sun 12:09]--[2016-07-03 Sun 12:12] =>  0:03
+** triple 三倍 							       :NOTE:
+** org-up-heading-safe jump to parent heading 			       :NOTE:
+** pepetuate 报持 长久的 					       :NOTE:
+   CLOCK: [2016-07-04 Mon 17:19]--[2016-07-04 Mon 17:22] =>  0:03
+** gigantic 巨大的 						       :NOTE:
+   CLOCK: [2016-07-04 Mon 17:23]--[2016-07-04 Mon 17:24] =>  0:01
+** 	using intern convert string to symbol 			       :NOTE:
+								       CLOCK: [2016-07-04 Mon 17:41]--[2016-07-04 Mon 17:51] =>  0:10
+** Alt+9 show tool window for version control 			       :NOTE:
+								       CLOCK: [2016-07-07 Thu 09:15]--[2016-07-07 Thu 09:17] =>  0:02
+** Dired mode d mark delete and move to next line u delete the mark    :NOTE:
+   								       CLOCK: [2016-07-07 Thu 13:18]--[2016-07-07 Thu 13:21] =>  0:03
+** Ctrl+shift+enter complete brace in idea 			       :NOTE:
+								       CLOCK: [2016-07-07 Thu 13:44]--[2016-07-07 Thu 13:52] =>  0:08
+
+** TODO [#C] https://blog.jetbrains.com/idea/2006/07/surround-with/
+ [2016-07-08 Fri 12:52]
+** When Git clone, network problem is main one of factors occuring error of packet_write_wait broken pipe :NOTE:
+CLOCK: [2016-07-08 Fri 20:23]--[2016-07-08 Fri 20:27] =>  0:04
+
+** TODO [#C] http://askubuntu.com/questions/314267/how-can-i-install-nautilus-gksu
+   [[file:~/org-notes/diary.org::*]] 
+ [2016-07-09 Sat 00:38]
+** Using wmctrl to active window in linux                              :NOTE:
+CLOCK: [2016-07-10 Sun 20:16]--[2016-07-10 Sun 20:17] =>  0:01
+** C-x c-e trigger vim editor in terminal                                :NOTE:
+** If editing the previous line, you can use quick substitution: ^--option25^--newoption                                                                 :NOTE:
+** Ctrl +s forward search C-r backward search                             :NOTE:
+CLOCK: [2016-07-11 Mon 09:25]--[2016-07-11 Mon 09:26] =>  0:01
+** hereafter 今后                                                      :NOTE:
+CLOCK: [2016-07-11 Mon 10:47]--[2016-07-11 Mon 10:48] =>  0:01
+** Reside 居住,属于                                                    :NOTE:
+**                                                                  :NOTE:
+CLOCK: [2016-07-11 Mon 11:46]--[2016-07-11 Mon 11:47] =>  0:01
+** Sparse 稀少                                                         :NOTE:
+CLOCK: [2016-07-11 Mon 11:48]--[2016-07-11 Mon 11:49] =>  0:01
+** C-\ switch to input method  in  emacs                               :NOTE:
+CLOCK: [2016-07-11 Mon 11:54]--[2016-07-11 Mon 11:55] =>  0:01
+** \; represenbt single + represent collect in -exec                   :NOTE:
+CLOCK: [2016-07-11 Mon 21:17]--[2016-07-11 Mon 21:18] =>  0:01
+** find . -print0 will delete all of \n                                :NOTE:
+CLOCK: [2016-07-11 Mon 21:34]--[2016-07-11 Mon 21:35] =>  0:01
+**  -0      Change xargs to expect NUL (``\0'') characters as separators,
+         instead of spaces and newlines.  This is expected to be used in
+         concert with the -print0 function in find(1). 
+      (in concert with 结合,相呼应)                                                              :NOTE:
+CLOCK: [2016-07-12 Tue 10:39]--[2016-07-12 Tue 10:41] =>  0:02
+** Directory must be lowercase (convention)                            :NOTE:
+CLOCK: [2016-07-12 Tue 11:19]--[2016-07-12 Tue 11:21] =>  0:02
+** Full screen (editor)                                                :NOTE:
+** Jump to definition                                                  :NOTE:
+CLOCK: [2016-07-14 Thu 14:17]--[2016-07-14 Thu 14:18] =>  0:01
+** Format code                                                         :NOTE:
+CLOCK: [2016-07-14 Thu 14:21]--[2016-07-14 Thu 14:22] =>  0:01
+** Open a new line up or down                                          :NOTE:
+** mess around with 玩弄                                               :NOTE:
+** u prior to str is equals to str.decode("unicode-escape")            :NOTE:
+CLOCK: [2016-07-15 Fri 00:03]--[2016-07-15 Fri 00:04] =>  0:01
+** Copy region or line using avy                                       :NOTE:
+CLOCK: [2016-07-15 Fri 10:53]--[2016-07-15 Fri 10:54] =>  0:01
+** Quick fix                             (in idea)                     :NOTE:
+CLOCK: [2016-07-15 Fri 12:07]--[2016-07-15 Fri 12:08] =>  0:01
+** split method                                                     :NOTE:
+** Conditional breakpoint                                              :NOTE:
+CLOCK: [2016-07-15 Fri 21:40]--[2016-07-15 Fri 21:41] =>  0:01
+**  compare string using = in shell                                    :NOTE:
+** ^yes^no^ is equals to !!:s/yes/no                                   :NOTE:
+CLOCK: [2016-07-16 Sat 21:58]--[2016-07-16 Sat 22:00] =>  0:02
+** C-j confirm to select command,combined with C-r in shell            :NOTE:
+CLOCK: [2016-07-16 Sat 22:00]--[2016-07-16 Sat 22:02] =>  0:02
+** !!?string? will search executed command that contains string        :NOTE:
+CLOCK: [2016-07-16 Sat 22:36]--[2016-07-16 Sat 22:37] =>  0:01
+** TODO [#C] git commit -a -m , -a represent all,will commit all modified files,but not add new file in the current workspace:NOTE:
+CLOCK: [2016-07-17 Sun 15:09]--[2016-07-17 Sun 15:10] =>  0:01
+** TODO [#C] truncate 截断,清空                                        :NOTE:
+CLOCK: [2016-07-17 Sun 17:53]--[2016-07-17 Sun 17:54] =>  0:01
+** TODO [#C] !^ is first argument of last command !$ is the last argument of last command :NOTE:
+** TODO [#C] Goto line  ace-jump                                       :NOTE:
+** TODO [#C] Ace link (plugin) emacs                                   :NOTE:
+** TODO [#C] tuple is similar to array                                 :NOTE:
+CLOCK: [2016-07-17 Sun 22:08]--[2016-07-17 Sun 22:10] =>  0:02
+** TODO [#C] using other word to express as one word be used many times,you can google or baidu for new word :NOTE:
+CLOCK: [2016-07-17 Sun 22:11]--[2016-07-17 Sun 22:12] =>  0:01
+** TODO [#C]  Using C-m represent RET in multiple cursors mode
+            :NOTE:
+CLOCK: [2016-07-17 Sun 22:36]--[2016-07-17 Sun 22:37] =>  0:01
+** TODO [#C] ace-jump-buffer emace plugin                              :NOTE:
+CLOCK: [2016-07-17 Sun 22:46]--[2016-07-17 Sun 22:47] =>  0:01
+** TODO [#C] o in visual mode,go to other side of selection vim        :NOTE:
+CLOCK: [2016-07-18 Mon 08:58]--[2016-07-18 Mon 08:59] =>  0:01
+** TODO [#C] Optimize import ide                                       :NOTE:
+** TODO [#C] impose upon     强加                                      :NOTE:
+CLOCK: [2016-07-18 Mon 18:48]--[2016-07-18 Mon 18:50] =>  0:02
+** TODO [#C] synonymous 同义                                           :NOTE:
+** TODO [#C] aid in 在某方面的帮助                                     :NOTE:
+** TODO [#C] friagile 易碎的                                           :NOTE:
+CLOCK: [2016-07-18 Mon 18:57]--[2016-07-18 Mon 18:58] =>  0:01
+** TODO [#C] Using ag to search string in files                        :NOTE:
+CLOCK: [2016-07-18 Mon 21:30]--[2016-07-18 Mon 21:31] =>  0:01
+** TODO [#C] innovative 创新                                           :NOTE:
+CLOCK: [2016-07-18 Mon 22:03]--[2016-07-18 Mon 22:04] =>  0:01
+** TODO [#C] Likewsie 同样                                             :NOTE:
+CLOCK: [2016-07-18 Mon 22:37]--[2016-07-18 Mon 22:38] =>  0:01
+** TODO [#C] As 做原因状语,主要用来解释                                :NOTE:
+Note: Hard links are only valid within the same File System. Symbolic links can span file systems as they are simply the name of another file.
+CLOCK: [2016-07-18 Mon 22:42]--[2016-07-18 Mon 22:43] =>  0:01
+** TODO [#C] cd directory to execute command is unneccessary           :NOTE:
+CLOCK: [2016-07-18 Mon 22:58]--[2016-07-18 Mon 23:01] =>  0:03
+** TODO [#C] using /opt instead of cd /opt                             :NOTE:
+** TODO [#C] for作目的状语 后接名词 For more advanced requirements                                   :NOTE:
+CLOCK: [2016-07-19 Tue 10:40]--[2016-07-19 Tue 10:41] =>  0:01
+** TODO [#C] Critical 重大的 关键的                                    :NOTE:
+CLOCK: [2016-07-19 Tue 10:44]--[2016-07-19 Tue 10:46] =>  0:02
+** TODO [#C] retriveval 检索                                           :NOTE:
+CLOCK: [2016-07-19 Tue 11:34]--[2016-07-19 Tue 11:35] =>  0:01
+** TODO [#C]  if any 如果有的话                                        :NOTE:
+CLOCK: [2016-07-19 Tue 13:25]--[2016-07-19 Tue 13:26] =>  0:01
+** TODO [#C] 1,20d delete 1 to 20 line in vim                          :NOTE:
+** TODO [#C] transitive 过渡                                           :NOTE:
+** TODO [#C] f forward page b backward page in vim                     :NOTE:
+** TODO [#C] ships with 过渡                                           :NOTE:
+CLOCK: [2016-07-19 Tue 15:22]--[2016-07-19 Tue 15:23] =>  0:01
+** TODO [#C] Must check sha1 of the file when have downloaded file. command to check sha is sha1sum filename in linux :NOTE:
+CLOCK: [2016-07-19 Tue 17:24]--[2016-07-19 Tue 17:25] =>  0:01
+** TODO [#C] Focus on console using go debug idea                      :NOTE:
+CLOCK: [2016-07-20 Wed 00:42]--[2016-07-20 Wed 00:44] =>  0:02
+** TODO [#C] stop                                                      :NOTE:
+** TODO [#C] Using search nagivate rather than having page down util you see it. :NOTE:
+CLOCK: [2016-07-20 Wed 20:56]--[2016-07-20 Wed 20:57] =>  0:01
+** TODO [#C] To delete several lines,if you are at the middle of snippet,don't go to head of snippet ,directly press v to select and then press o to select opposite part of snippet :NOTE:
+CLOCK: [2016-07-21 Thu 14:17]--[2016-07-21 Thu 14:20] =>  0:03
+** TODO [#C] 2gt go to the  second tab                                 :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 18:36]--[2016-07-21 Thu 18:38] =>  0:02
+** TODO [#C] To adjust indent pressing tab                             :EDITOR:NOTE:
+CLOCK: [2016-07-21 Thu 18:38]--[2016-07-21 Thu 18:41] =>  0:03
+** TODO [#C] Jnativehook is awesome library for cross-platform hook.   :JAVA:NOTE:
+CLOCK: [2016-07-21 Thu 18:44]--[2016-07-21 Thu 18:45] =>  0:01
+** TODO [#C] stumbling upon 跌跌撞撞地                     :VOCABULARY:NOTE:
+CLOCK: [2016-07-21 Thu 19:08]--[2016-07-21 Thu 19:09] =>  0:01
+** TODO [#C] up to 能胜任 Autokey seems up to this job                 :NOTE:
+CLOCK: [2016-07-21 Thu 19:17]--[2016-07-21 Thu 19:18] =>  0:01
+** TODO [#C] csw" add " surround to a word                        :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 19:24]--[2016-07-21 Thu 19:25] =>  0:01
+** TODO [#C] ds" delete " delete surround ""                       :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 19:33]--[2016-07-21 Thu 19:35] =>  0:02
+** TODO [#C] ( go to first line of paragraph                      :VIM:NOTE:
+** TODO [#C] [( go to unmatched (                                 :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 21:49]--[2016-07-21 Thu 21:50] =>  0:01
+** TODO [#C]  gd go to definition                                 :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 22:04]--[2016-07-21 Thu 22:06] =>  0:02
+** TODO [#C] Using C-o to jump to last position on the jumplist,C-I to jump forward :VIM:NOTE:
+CLOCK: [2016-07-21 Thu 22:12]--[2016-07-21 Thu 22:13] =>  0:01
+** TODO [#C] Jump list                                          :EDITOR:NOTE:
+CLOCK: [2016-07-21 Thu 22:15]--[2016-07-21 Thu 22:16] =>  0:01
+** TODO [#C] Insert space   to reduce candidate                        :INTEllIJIDEA:NOTE:
+CLOCK: [2016-07-21 Thu 23:02]--[2016-07-21 Thu 23:07] =>  0:05
+** TODO [#C] paradigm 范例                                 :VOCABULARY:NOTE:
+CLOCK: [2016-07-22 Fri 10:05]--[2016-07-22 Fri 10:06] =>  0:01
+** TODO [#C] adjacent 相邻                                 :VOCABULARY:NOTE:
+CLOCK: [2016-07-22 Fri 16:27]--[2016-07-22 Fri 16:28] =>  0:01
+** TODO [#C] Using C-c when give up command being inputed       :SHELL:NOTE:
+** TODO [#C] Hide border                               :WINDOW_MANAGER:NOTE:
+CLOCK: [2016-07-22 Fri 21:39]--[2016-07-22 Fri 21:40] =>  0:01
+** TODO [#C] Hide bar then press modifer to show it     :WINDOW_MANAGER:NOTE:
+** TODO [#C] Status bar shows at the top               :WINDOW_MANAGER:NOTE:
+CLOCK: [2016-07-22 Fri 21:44]--[2016-07-22 Fri 21:46] =>  0:02
+** TODO [#C] Open project view close project view               :EDITOR:NOTE:
+** TODO [#C] Back and forth                            :WINDOW_MANAGER:NOTE:
+** TODO [#C] incarnation 化身                                          :NOTE:
+** TODO [#C] superseded 被取代                                         :NOTE:
+CLOCK: [2016-07-24 Sun 08:49]--[2016-07-24 Sun 08:50] =>  0:01
+** TODO [#C] dating from 自从什么时候                                  :NOTE:
+CLOCK: [2016-07-24 Sun 08:54]--[2016-07-24 Sun 08:55] =>  0:01
+** TODO [#C] FAT32 shares all of the other limitations of FAT16 plus the additional one that many non-Windows operating systems that are FAT16-compatible will not work with FAT32. This makes FAT32 inappropriate for dual-boot environments                                                       :NOTE:
+** TODO [#C] advent 到来                                               :NOTE:
+** TODO [#C] resilient 能恢复                                          :NOTE:
+** TODO [#C] catastrophic 灾难性的                                     :NOTE:
+** TODO [#C] firmware固件                                              :NOTE:
+** TODO [#C] geometry 几何图形                                         :NOTE:
+CLOCK: [2016-07-24 Sun 09:20]--[2016-07-24 Sun 09:21] =>  0:01
+** TODO [#C] mess up 搞乱                                              :NOTE:
+** TODO [#C] intact 完好的                                             :NOTE:
+** TODO [#C] get around 绕开                                           :NOTE:
+** TODO [#C] bonus 奖金                                                :NOTE:
+** TODO [#C] etiquette 规距                                            :NOTE:
+CLOCK: [2016-07-24 Sun 10:49]--[2016-07-24 Sun 10:50] =>  0:01
+** TODO [#C] as per 按照                                               :NOTE:
+** TODO [#C] fcdisk device name,d delete a parition       :SHELL:NOTE:LINUX:
+CLOCK: [2016-07-24 Sun 19:31]--[2016-07-24 Sun 19:34] =>  0:03
+** TODO [#C] #parted /dev/dbc print ;  to print detail of device       :NOTE:
+CLOCK: [2016-07-24 Sun 19:34]--[2016-07-24 Sun 19:35] =>  0:01
+** TODO [#C] # mkfs.ext4 /dev/sdc1 ; to change file system of parition :SHELL:NOTE:LINUX:
+CLOCK: [2016-07-24 Sun 19:37]--[2016-07-24 Sun 19:38] =>  0:01
+** TODO [#C] Shift+Esc to exit Ignore mode in vimfx                    :NOTE:
+CLOCK: [2016-07-26 Tue 10:42]--[2016-07-26 Tue 10:42] =>  0:00
+** TODO [#C] i to enter Ignore Mode in vimfx                           :NOTE:
+CLOCK: [2016-07-26 Tue 10:42]--[2016-07-26 Tue 10:43] =>  0:01
+** TODO [#C] The /etc/fstab file can be used to define how disk partitions, various other block devices, or remote filesystems should be mounted into the filesystem.                                                           :NOTE:
+CLOCK: [2016-07-26 Tue 14:18]--[2016-07-26 Tue 14:19] =>  0:01
+** TODO [#C] case by case 具体问题具体分析                             :NOTE:
+CLOCK: [2016-07-26 Tue 15:29]--[2016-07-26 Tue 15:30] =>  0:01
+** TODO [#C] come across 偶然发现                                      :NOTE:
+CLOCK: [2016-07-27 Wed 21:33]--[2016-07-27 Wed 21:34] =>  0:01
+** TODO [#C] though 然而 (可以放在结尾)                                :NOTE:
+CLOCK: [2016-07-27 Wed 21:34]--[2016-07-27 Wed 21:35] =>  0:01
+** TODO [#C] umask  R: (D & (~M))                                                   :NOTE:
+CLOCK: [2016-07-27 Wed 21:39]--[2016-07-27 Wed 21:41] =>  0:02

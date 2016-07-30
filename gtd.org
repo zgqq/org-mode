@@ -1,0 +1,317 @@
+#+TITLE: Schedule
+#+AUTHOR: ZGQ
+* Workspace
+** DONE [#B] Arrange agenda					       :WORK:
+   CLOSED: [2016-07-01 Fri 23:32]
+   - State "DONE"       from "TODO"       [2016-07-01 Fri 23:32]
+   CLOCK: [2016-07-01 Fri 17:01]--[2016-07-01 Fri 17:05] =>  0:04
+** TODO [#A] Welfare 						       :WORK:
+   [2016-07-01 Fri 17:49]
+
+** TODO [#B] The Big Bang Theory [100%]                            :PERSONAL:
+   - State "DONE"       from "TODO"       [2016-07-06 Wed 13:10]
+   CLOCK: [2016-07-01 Fri 23:33]--[2016-07-01 Fri 23:35] =>  0:02
+*** DONE [#B] The six season [100%]
+    - State "DONE"       from "TODO"       [2016-07-03 Sun 16:13]
+**** DONE [#B] 1
+     CLOSED: [2016-07-03 Sun 16:10]
+**** DONE [#B] 2
+     CLOSED: [2016-07-03 Sun 16:10]
+**** DONE [#B] 3
+     CLOSED: [2016-07-03 Sun 16:10]
+     - State "DONE"       from "TODO"       [2016-07-03 Sun 16:10]
+**** DONE [#B] 4
+     CLOSED: [2016-07-03 Sun 16:12]
+**** DONE [#B] 5
+     CLOSED: [2016-07-03 Sun 16:12]
+     - State "DONE"       from "TODO"       [2016-07-03 Sun 16:12]
+**** DONE [#B] 6
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 7
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 8
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 9
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 10
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 11
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 12
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 13
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 14
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 15
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 16
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 17
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 18
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 19
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 20
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 21
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 22
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 23
+     CLOSED: [2016-07-03 Sun 16:13]
+**** DONE [#B] 24
+     CLOSED: [2016-07-03 Sun 16:13]
+     
+*** DONE [#B] The seven season [100%]
+    :PROPERTIES:
+    :ID:       1c8dbc91-b2d2-4b55-9218-ff9c3ae684a7
+    :END:
+**** DONE [#B] 1
+     CLOSED: [2016-07-03 Sun 21:18]
+**** DONE [#B] 2
+     CLOSED: [2016-07-03 Sun 21:18]
+**** DONE [#B] 3
+     CLOSED: [2016-07-03 Sun 21:18]
+     - State "DONE"       from "TODO"       [2016-07-03 Sun 21:18]
+**** DONE [#B] 4
+     CLOSED: [2016-07-04 Mon 01:49]
+**** DONE [#B] 5
+     CLOSED: [2016-07-04 Mon 01:49]
+**** DONE [#B] 6
+     CLOSED: [2016-07-04 Mon 01:49]
+**** DONE [#B] 7
+     CLOSED: [2016-07-04 Mon 01:49]
+**** DONE [#B] 8
+     CLOSED: [2016-07-04 Mon 01:49]
+**** DONE [#B] 9
+     CLOSED: [2016-07-04 Mon 01:49]
+     - State "DONE"       from "TODO"       [2016-07-04 Mon 01:49]
+**** DONE [#B] 10
+     CLOSED: [2016-07-04 Mon 19:33]
+**** DONE [#B] 11
+     CLOSED: [2016-07-04 Mon 19:33]
+**** DONE [#B] 12
+     CLOSED: [2016-07-04 Mon 19:33]
+**** DONE [#B] 13
+     CLOSED: [2016-07-04 Mon 19:33]
+     - State "DONE"       from "TODO"       [2016-07-04 Mon 19:33]
+**** DONE [#B] 14
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 15
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 16
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 17
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 18
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 19
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 20
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 21
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 22
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 23
+     CLOSED: [2016-07-06 Wed 13:10]
+**** DONE [#B] 24
+     CLOSED: [2016-07-06 Wed 13:10]
+
+*** DONE [#B] The Eight season [100%]
+CLOSED: [2016-07-14 Thu 09:41]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:41]
+    :PROPERTIES:
+    :ID:       3a483151-b5c1-46b2-9491-9140bda7a2d8
+    :END:
+**** DONE [#B] 1
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 2
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 3
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 4
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 5
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 6
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 7
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 8
+     CLOSED: [2016-07-07 Thu 13:31]
+**** DONE [#B] 9
+     CLOSED: [2016-07-07 Thu 13:31]
+     - State "DONE"       from "TODO"       [2016-07-07 Thu 13:31]
+**** DONE [#B] 10
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 11
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 12
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 13
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 14
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 15
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 16
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 17
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 18
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 19
+CLOSED: [2016-07-12 Tue 12:45]
+**** DONE [#B] 20
+CLOSED: [2016-07-12 Tue 12:45]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 12:45]
+**** DONE [#B] 21
+CLOSED: [2016-07-14 Thu 09:40]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:40]
+**** DONE [#B] 22
+CLOSED: [2016-07-14 Thu 09:40]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:40]
+**** DONE [#B] 23
+CLOSED: [2016-07-14 Thu 09:40]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:40]
+**** DONE [#B] 24
+CLOSED: [2016-07-14 Thu 09:40]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:40]
+** DONE [#B] Buy phone
+   CLOSED: [2016-07-04 Mon 10:05] DEADLINE: <2010-07-04 Sun 10:00> SCHEDULED: <2016-07-04 Mon 09:55>
+   - State "DONE"       from "TODO"       [2016-07-04 Mon 10:05]
+   CLOCK: [2016-07-03 Sun 22:08]--[2016-07-03 Sun 22:10] =>  0:02
+
+** DONE [#B] Using a picture about emacs skills as desktop
+CLOSED: [2016-07-14 Thu 09:40]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:40]
+   CLOCK: [2016-07-04 Mon 01:54]--[2016-07-04 Mon 01:55] =>  0:01
+
+** DONE [#B] Go home
+CLOSED: [2016-07-09 Sat 21:32]
+- State "DONE"       from "TODO"       [2016-07-09 Sat 21:32]
+  CLOCK: [2016-07-04 Mon 10:13]--[2016-07-04 Mon 10:14] =>  0:01
+** TODO [#B] Solve can using shortcut in org mode
+
+** TODO [#B] Using dropbox to backup trival files
+   CLOCK: [2016-07-08 Fri 00:31]--[2016-07-08 Fri 00:41] =>  0:10
+
+** TODO [#B] Install youdao
+CLOCK: [2016-07-09 Sat 21:30]--[2016-07-09 Sat 21:31] =>  0:01
+
+** TODO [#B] Backup system
+
+** DONE [#B] Terminal copy to system
+CLOSED: [2016-07-17 Sun 13:56]
+- State "DONE"       from "TODO"       [2016-07-17 Sun 13:56]
+
+** DONE [#B] Zsh switch to root                                       :WORK:
+CLOSED: [2016-07-12 Tue 12:37]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 12:37]
+CLOCK: [2016-07-11 Mon 14:53]--[2016-07-11 Mon 14:54] =>  0:01
+** TODO [#B] The big bang different between engineer and scientist 
+CLOCK: [2016-07-11 Mon 16:08]--[2016-07-11 Mon 16:09] =>  0:01
+
+** DONE [#B] The big bong adjust office important
+CLOSED: [2016-07-12 Tue 12:47]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 12:47]
+
+** DONE [#B] Clearn useless space
+CLOSED: [2016-07-12 Tue 12:47]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 12:47]
+CLOCK: [2016-07-11 Mon 18:18]--[2016-07-11 Mon 18:19] =>  0:01
+
+** DONE [#B] Recharge 充电宝
+CLOSED: [2016-07-12 Tue 12:53]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 12:53]
+CLOCK: [2016-07-12 Tue 09:07]--[2016-07-12 Tue 09:09] =>  0:02
+
+** DONE [#B] Setting default terminal as tmubx
+CLOSED: [2016-07-14 Thu 09:39]
+- State "DONE"       from "TODO"       [2016-07-14 Thu 09:39]
+CLOCK: [2016-07-12 Tue 09:52]--[2016-07-12 Tue 09:53] =>  0:01
+
+** DONE [#B] Install idea
+CLOSED: [2016-07-12 Tue 13:23]
+- State "DONE"       from "TODO"       [2016-07-12 Tue 13:23]
+
+** TODO [#B] Vim copy problem
+** DONE [#B] Modity shortcut of tmux
+CLOSED: [2016-07-17 Sun 13:56]
+- State "DONE"       from "TODO"       [2016-07-17 Sun 13:56]
+CLOCK: [2016-07-12 Tue 22:47]--[2016-07-12 Tue 22:48] =>  0:01
+
+** DONE [#B] Recharge chongdianbao
+CLOSED: [2016-07-18 Mon 21:47]
+- State "DONE"       from "TODO"       [2016-07-18 Mon 21:47]
+CLOCK: [2016-07-14 Thu 09:39]--[2016-07-14 Thu 09:40] =>  0:01
+
+** DONE [#B] Resolve cloud not install package (oracle-java8)
+CLOSED: [2016-07-19 Tue 17:50]
+- State "DONE"       from "TODO"       [2016-07-19 Tue 17:50]
+
+** TODO [#B] Add habit to arrange note
+CLOCK: [2016-07-19 Tue 17:54]--[2016-07-19 Tue 18:09] =>  0:15
+
+** TODO [#B] Learn i3 Window Manager
+ 
+  [[file:~/.emacs.d/lisp/init-org.el::("UBUNTU".?u)]]
+
+** TODO [#B] Learn gradle
+ 
+  [[file:~/.emacs.d/lisp/init-org.el::("UBUNTU".?u)]]
+
+
+* Habit
+** NEXT [#C] Shave                                                   :HABIT:
+- State "DONE"       from "NEXT"       [2016-07-22 Fri 00:37]
+- State "DONE"       from "NEXT"       [2016-07-14 Thu 09:38]
+   [2016-07-01 Fri 17:33]
+  SCHEDULED:  <2016-07-27 Wed .+5d/7d>
+   :PROPERTIES:
+   :STYLE:    habit
+   :REPEAT_TO_STATE: NEXT
+:LAST_REPEAT: [2016-07-22 Fri 00:37]
+   :END:      
+** NEXT [#C] A english tutorial                                      :HABIT:
+- State "DONE"       from "NEXT"       [2016-07-26 Tue 13:46]
+- State "DONE"       from "NEXT"       [2016-07-24 Sun 09:08]
+- State "DONE"       from "NEXT"       [2016-07-22 Fri 00:38]
+- State "DONE"       from "NEXT"       [2016-07-19 Tue 17:49]
+- State "DONE"       from "NEXT"       [2016-07-18 Mon 18:58]
+- State "DONE"       from "NEXT"       [2016-07-12 Tue 22:31]
+- State "DONE"       from "NEXT"       [2016-07-10 Sun 22:27]
+- State "DONE"       from "NEXT"       [2016-07-09 Sat 07:33]
+CLOCK: [2016-07-09 Sat 07:13]--[2016-07-09 Sat 07:33] =>  0:20
+- State "DONE"       from "NEXT"       [2016-07-07 Thu 23:07]
+- State "DONE"       from "NEXT"       [2016-07-07 Thu 13:31]
+- State "DONE"       from "NEXT"       [2016-07-01 Fri 23:06]
+  [2016-07-01 Fri 22:56]
+  SCHEDULED: <2016-07-27 Wed .+1d/2d>
+   :PROPERTIES: 
+   :STYLE:    habit
+   :REPEAT_TO_STATE: NEXT
+:LAST_REPEAT: [2016-07-26 Tue 13:46]
+   :END:      
+* Problems
+** DONE [#B] Change transfer way of repo created by hub
+git config --global hub.protocol ssh 
+CLOSED: [2016-07-19 Tue 18:39]
+- State "DONE"       from "TODO"       [2016-07-19 Tue 18:39]
+CLOCK: [2016-07-17 Sun 15:11]--[2016-07-17 Sun 15:13] =>  0:02
+
+** TODO [#B] Sometimes,搜狗拚音 could not be triggered in ubuntu :UBUNTU:PROBLEM:
+CLOCK: [2016-07-19 Tue 18:44]--[2016-07-19 Tue 18:49] =>  0:05
+
+** TODO [#B] To use i3                                      :UBUNTU:PROBLEM:
+CLOCK: [2016-07-22 Fri 10:54]--[2016-07-22 Fri 10:55] =>  0:01
+
+
+* New Stuff
+
+** TODO [#C] awesome vm                                               :STUFF:
+CLOCK: [2016-07-19 Tue 22:32]--[2016-07-19 Tue 22:33] =>  0:01
+
