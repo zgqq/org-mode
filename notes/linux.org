@@ -1,0 +1,77 @@
+* Linux
+** DONE Using wmctrl to active window in linux                        :NOTE:
+CLOSED: [2016-10-08 Sat 01:09]
+CLOCK: [2016-07-10 Sun 20:16]--[2016-07-10 Sun 20:17] =>  0:01
+** DONE C-x c-e trigger vim editor in terminal                        :NOTE:
+CLOSED: [2016-10-08 Sat 01:22]
+** DONE If editing the previous line, you can use quick substitution: ^--option25^--newoption :NOTE:
+CLOSED: [2016-10-08 Sat 01:34]
+** DONE Directory must be lowercase (convention)                      :NOTE:
+CLOSED: [2016-10-08 Sat 01:39]
+CLOCK: [2016-07-12 Tue 11:19]--[2016-07-12 Tue 11:21] =>  0:02
+** DONE [#C] Using ag to search string in files                       :NOTE:
+CLOSED: [2016-10-08 Sat 14:12]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:12]
+CLOCK: [2016-07-18 Mon 21:30]--[2016-07-18 Mon 21:31] =>  0:01
+** DONE [#C] cd directory to execute command is unneccessary          :NOTE:
+CLOSED: [2016-10-08 Sat 14:12]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:12]
+CLOCK: [2016-07-18 Mon 22:58]--[2016-07-18 Mon 23:01] =>  0:03
+** DONE [#C] Must check sha1 of the file when have downloaded file. command to check sha is sha1sum filename in linux :NOTE:
+CLOSED: [2016-10-08 Sat 14:12]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:12]
+CLOCK: [2016-07-19 Tue 17:24]--[2016-07-19 Tue 17:25] =>  0:01
+** DONE [#C] FAT32 shares all of the other limitations of FAT16 plus the additional one that many non-Windows operating systems that are FAT16-compatible will not work with FAT32. This makes FAT32 inappropriate for dual-boot environments :NOTE:
+CLOSED: [2016-10-08 Sat 14:18]
+** DONE [#C] # mkfs.ext4 /dev/sdc1 ; to change file system of parition :SHELL:NOTE:LINUX:
+CLOSED: [2016-10-08 Sat 14:21]
+CLOCK: [2016-07-24 Sun 19:37]--[2016-07-24 Sun 19:38] =>  0:01
+** DONE [#C] #parted /dev/dbc print ;  to print detail of device      :NOTE:
+CLOSED: [2016-10-08 Sat 14:22]
+CLOCK: [2016-07-24 Sun 19:34]--[2016-07-24 Sun 19:35] =>  0:01
+** DONE [#C] umask  R: (D & (~M))                                     :NOTE:
+CLOSED: [2016-10-08 Sat 14:29]
+CLOCK: [2016-07-27 Wed 21:39]--[2016-07-27 Wed 21:41] =>  0:02
+https://en.wikipedia.org/wiki/Umask
+** DONE [#C] nmcli dev wifi connect zgqaaa password 1995826z  to connect wifi :NOTE:
+CLOSED: [2016-10-08 Sat 14:31]
+CLOCK: [2016-07-31 Sun 11:05]--[2016-07-31 Sun 11:06] =>  0:01
+** DONE [#C] nmcli general status    to show network status           :NOTE:
+CLOSED: [2016-10-08 Sat 14:35]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:35]
+CLOCK: [2016-08-01 Mon 21:02]--[2016-08-01 Mon 21:04] =>  0:02
+** DONE [#C] occur 404 ,first execute pacman -Syy to update source    :NOTE:
+CLOSED: [2016-10-08 Sat 15:04]
+CLOCK: [2016-08-04 Thu 11:27]--[2016-08-04 Thu 11:28] =>  0:01
+** DONE [#C] thefuck  modify error command                      :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:04]
+CLOCK: [2016-08-04 Thu 11:41]--[2016-08-04 Thu 11:41] =>  0:00
+** DONE [#C] hub  create github repository using command              :NOTE:
+CLOSED: [2016-10-08 Sat 15:08]
+CLOCK: [2016-08-05 Fri 23:38]--[2016-08-05 Fri 23:40] =>  0:02
+** DONE [#C] opacity-rule = [ "80:class_g = 'URxvt'" ];  transparent compton :NOTE:
+CLOSED: [2016-10-08 Sat 15:09]
+CLOCK: [2016-08-06 Sat 23:19]--[2016-08-06 Sat 23:20] =>  0:01
+** DONE [#C] using thunderbird to send or receive email               :NOTE:
+CLOSED: [2016-10-08 Sat 21:40]
+CLOCK: [2016-09-08 Thu 20:30]--[2016-09-08 Thu 20:31] =>  0:01
+** DONE [#C] URxvt antiaslias                                         :NOTE:
+CLOSED: [2016-10-09 Sun 00:39]
+CLOCK: [2016-09-14 Wed 22:45]--[2016-09-14 Wed 22:46] =>  0:01
+URxvt.font:xft:Monaco:pixelsize=16:antialias=true,xft:Microsoft Yahei:pixelsize=14
+URxvt.boldFont:xft:Monaco:pixelsize=16:antialias=true:Bold,xft:Microsoft Yahei:pixelsize=16:Bold
+** DONE [#C] ibus                                                     :NOTE:
+CLOSED: [2016-10-09 Sun 00:44]
+CLOCK: [2016-09-16 Fri 23:06]--[2016-09-16 Fri 23:07] =>  0:01
+XTerm*inputMethod:ibus  
+** DONE [#C] linux wifi                                               :NOTE:
+CLOSED: [2016-10-09 Sun 00:45]
+CLOCK: [2016-09-18 Sun 13:20]--[2016-09-18 Sun 13:20] =>  0:00
+https://github.com/oblique/create_ap
+** DONE [#C] npm install                                              :NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-20 Tue 09:19]--[2016-09-20 Tue 09:25] =>  0:06
+http://www.competa.com/blog/2014/12/how-to-run-npm-without-sudo/
+** DONE [#C] Dropbox link to target directory                         :NOTE:
+CLOSED: [2016-10-09 Sun 01:08]
+CLOCK: [2016-09-30 Fri 02:56]--[2016-09-30 Fri 02:56] =>  0:00

@@ -1,0 +1,138 @@
+* Term
+** DONE [#C] truncate 删除,截断,清空                                  :NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+CLOCK: [2016-07-17 Sun 17:53]--[2016-07-17 Sun 17:54] =>  0:01
+** DONE [#C] retriveval 检索                                          :NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+CLOCK: [2016-07-19 Tue 11:34]--[2016-07-19 Tue 11:35] =>  0:01
+** DONE [#C]  if any 如果有的话                                       :NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+CLOCK: [2016-07-19 Tue 13:25]--[2016-07-19 Tue 13:26] =>  0:01
+** DONE [#C] transitive 过渡                                          :NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+** DONE [#C] ships with 过渡                                          :NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+CLOCK: [2016-07-19 Tue 15:22]--[2016-07-19 Tue 15:23] =>  0:01
+** DONE [#C] Using C-c when give up command being inputed       :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 14:15]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:15]
+** DONE [#C] adjacent 相邻                                 :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 14:14]
+CLOCK: [2016-07-22 Fri 16:27]--[2016-07-22 Fri 16:28] =>  0:01
+** DONE [#C] advent 到来                                              :NOTE:
+CLOSED: [2016-10-08 Sat 14:19]
+** DONE [#C] resilient 能恢复                                         :NOTE:
+CLOSED: [2016-10-08 Sat 14:19]
+** DONE [#C] catastrophic 灾难性的                                    :NOTE:
+CLOSED: [2016-10-08 Sat 14:19]
+** DONE [#C] firmware固件                                             :NOTE:
+CLOSED: [2016-10-08 Sat 14:20]
+** DONE [#C] mess up 搞乱                                             :NOTE:
+CLOSED: [2016-10-08 Sat 14:20]
+** DONE [#C] intact 完好的                                            :NOTE:
+CLOSED: [2016-10-08 Sat 14:20]
+** DONE [#C] get around 绕开                                          :NOTE:
+CLOSED: [2016-10-08 Sat 14:20]
+** DONE [#C] as per 按照                                              :NOTE:
+CLOSED: [2016-10-08 Sat 14:20]
+** DONE [#C] case by case 具体问题具体分析                            :NOTE:
+CLOSED: [2016-10-08 Sat 14:24]
+CLOCK: [2016-07-26 Tue 15:29]--[2016-07-26 Tue 15:30] =>  0:01
+** DONE [#C] though 然而 (可以放在结尾)                               :NOTE:
+CLOSED: [2016-10-08 Sat 14:32]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:32]
+CLOCK: [2016-07-27 Wed 21:34]--[2016-07-27 Wed 21:35] =>  0:01
+** DONE [#C] umask  R: (D & (~M))                                     :NOTE:
+CLOSED: [2016-10-08 Sat 14:32]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:32]
+CLOCK: [2016-07-27 Wed 21:39]--[2016-07-27 Wed 21:41] =>  0:02
+** DONE [#C] case by case 具体问题具体分析                            :NOTE:
+CLOSED: [2016-10-08 Sat 14:33]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:33]
+CLOCK: [2016-07-26 Tue 15:29]--[2016-07-26 Tue 15:30] =>  0:01
+** DONE [#C] prune 删除                                    :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 15:11]
+CLOCK: [2016-08-07 Sun 21:35]--[2016-08-07 Sun 21:35] =>  0:00
+** DONE [#C] as required 按照需要                                     :NOTE:
+CLOSED: [2016-10-08 Sat 19:16]
+CLOCK: [2016-08-25 Thu 10:24]--[2016-08-25 Thu 10:25] =>  0:01
+** DONE [#C] leaps and bounds  跳跃式                      :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 19:28]
+CLOCK: [2016-08-25 Thu 12:54]--[2016-08-25 Thu 12:55] =>  0:01
+** DONE [#C] It is only a matter of time 只是时间问题                 :NOTE:
+CLOSED: [2016-10-08 Sat 19:28]
+CLOCK: [2016-08-25 Thu 13:02]--[2016-08-25 Thu 13:06] =>  0:04
+** DONE [#C] quest 探索                                               :NOTE:
+CLOSED: [2016-10-08 Sat 19:33]
+CLOCK: [2016-08-25 Thu 13:06]--[2016-08-25 Thu 13:07] =>  0:01
+** DONE [#C] dive into 深入                                           :NOTE:
+CLOSED: [2016-10-08 Sat 19:34]
+CLOCK: [2016-08-25 Thu 13:25]--[2016-08-25 Thu 13:26] =>  0:01
+** DONE [#C] appeal to me 吸引我                                      :NOTE:
+CLOSED: [2016-10-08 Sat 19:34]
+CLOCK: [2016-08-25 Thu 13:43]--[2016-08-25 Thu 13:43] =>  0:00
+** DONE [#C] hassle 困难                                   :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 20:34]
+CLOCK: [2016-08-25 Thu 14:42]--[2016-08-25 Thu 14:42] =>  0:00
+** DONE [#C] exclusively instead of only                 :INTELLIJIDEA:NOTE:
+CLOSED: [2016-10-08 Sat 20:36]
+CLOCK: [2016-08-25 Thu 20:21]--[2016-08-25 Thu 20:22] =>  0:01
+** DONE [#C] in place 适当                                            :NOTE:
+CLOSED: [2016-10-08 Sat 20:37]
+CLOCK: [2016-08-26 Fri 10:05]--[2016-08-26 Fri 10:06] =>  0:01
+** DONE [#C] try out 试验一下                              :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 20:51]
+CLOCK: [2016-08-26 Fri 21:27]--[2016-08-26 Fri 21:28] =>  0:01
+** DONE [#C] once in a while 偶尔                                     :NOTE:
+CLOSED: [2016-10-08 Sat 20:51]
+CLOCK: [2016-08-26 Fri 21:31]--[2016-08-26 Fri 21:32] =>  0:01
+
+** DONE [#C] iterate 重述                                  :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 20:53]
+CLOCK: [2016-08-27 Sat 19:37]--[2016-08-27 Sat 19:38] =>  0:01
+** DONE [#C] What if 如果是什么 ,该怎么做                             :NOTE:
+CLOSED: [2016-10-08 Sat 20:54]
+CLOCK: [2016-08-27 Sat 22:11]--[2016-08-27 Sat 22:12] =>  0:01
+** DONE [#C] with 随着时间                                            :NOTE:
+CLOSED: [2016-10-08 Sat 20:54]
+CLOCK: [2016-08-27 Sat 22:12]--[2016-08-27 Sat 22:13] =>  0:01
+But what if the project gets larger and larger with time?
+** DONE [#C] As 像 ..一样                                  :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 21:20]
+CLOCK: [2016-08-27 Sat 23:25]--[2016-08-27 Sat 23:26] =>  0:01
+As usual with other features,
+** DONE [#C] all but 除了                                  :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 21:20]
+CLOCK: [2016-08-28 Sun 13:27]--[2016-08-28 Sun 13:27] =>  0:00
+** DONE [#C] up to you 由你决定                            :VOCABULARY:NOTE:
+CLOSED: [2016-10-08 Sat 21:21]
+CLOCK: [2016-08-28 Sun 15:41]--[2016-08-28 Sun 15:41] =>  0:00
+** DONE [#C] mucking around 综合                                      :NOTE:
+CLOSED: [2016-10-08 Sat 21:28]
+CLOCK: [2016-08-30 Tue 20:10]--[2016-08-30 Tue 20:11] =>  0:01
+** DONE [#C] detach 分离                                              :NOTE:
+CLOSED: [2016-10-08 Sat 21:31]
+CLOCK: [2016-08-31 Wed 17:50]--[2016-08-31 Wed 17:50] =>  0:00
+** DONE [#C] detach                                                   :NOTE:
+CLOSED: [2016-10-08 Sat 21:40]
+CLOCK: [2016-09-08 Thu 16:29]--[2016-09-08 Thu 16:31] =>  0:02
+docker and tmux used this word,consequently,this word should be remembered
+** DONE [#C] tiers 等级                                               :NOTE:
+CLOSED: [2016-10-08 Sat 22:46]
+CLOCK: [2016-09-08 Thu 22:07]--[2016-09-08 Thu 22:07] =>  0:00
+** DONE [#C] get around problem                                       :NOTE:
+CLOSED: [2016-10-08 Sat 22:46]
+CLOCK: [2016-09-08 Thu 22:26]--[2016-09-08 Thu 22:26] =>  0:00
+绕过问题
+** DONE [#C] having say this 说到这                        :VOCABULARY:NOTE:
+CLOSED: [2016-10-09 Sun 01:04]
+CLOCK: [2016-09-26 Mon 19:27]--[2016-09-26 Mon 19:27] =>  0:00* Git
+** DONE [#C] git commit -a -m , -a represent all,will commit all modified files,but not add new file in the current workspace:NOTE:
+CLOSED: [2016-10-08 Sat 14:00]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:00]
+CLOCK: [2016-07-17 Sun 15:09]--[2016-07-17 Sun 15:10] =>  0:01

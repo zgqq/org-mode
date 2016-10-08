@@ -1,0 +1,624 @@
+* Vim
+** DONE [#C] o in visual mode,go to other side of selection vim       :NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-18 Mon 08:58]--[2016-07-18 Mon 08:59] =>  0:01
+** DONE [#C] 1,20d delete 1 to 20 line in vim                         :NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+** DONE [#C] f forward page b backward page in vim                    :NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+** DONE [#C] To delete several lines,if you are at the middle of snippet,don't go to head of snippet ,directly press v to select and then press o to select opposite part of snippet :NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-21 Thu 14:17]--[2016-07-21 Thu 14:20] =>  0:03
+** DONE [#C] 2gt go to the  second tab                            :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-21 Thu 18:36]--[2016-07-21 Thu 18:38] =>  0:02
+** DONE [#C] ds" delete " delete surround ""                      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-21 Thu 19:33]--[2016-07-21 Thu 19:35] =>  0:02
+** DONE [#C] ( go to first line of paragraph                      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+** DONE [#C]  gd go to definition                                 :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-21 Thu 22:04]--[2016-07-21 Thu 22:06] =>  0:02
+** DONE [#C] Using C-o to jump to last position on the jumplist,C-I to jump forward :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 13:59]
+CLOCK: [2016-07-21 Thu 22:12]--[2016-07-21 Thu 22:13] =>  0:01
+** DONE [#C] csw"  add " to a word                                :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 14:59]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:59]
+CLOCK: [2016-08-01 Mon 21:58]--[2016-08-01 Mon 21:58] =>  0:00
+** DONE [#C] g;   go to the location of last change               :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:00]
+CLOCK: [2016-08-01 Mon 22:00]--[2016-08-01 Mon 22:00] =>  0:00
+** DONE [#C] ctrl+o ctrl+I jump list                              :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:01]
+CLOCK: [2016-08-02 Tue 21:39]--[2016-08-02 Tue 21:39] =>  0:00
+** DONE [#C] instead of vipd,using dip to delete a paragraph      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:01]
+CLOCK: [2016-08-04 Thu 11:01]--[2016-08-04 Thu 11:01] =>  0:00
+** DONE [#C] `. to go the  last modified location                     :NOTE:
+CLOSED: [2016-10-08 Sat 15:05]
+CLOCK: [2016-08-04 Thu 12:46]--[2016-08-04 Thu 12:46] =>  0:00
+** DONE [#C] g/^/.m0 is equal to sed '1!G;h;$!d'            :VIM:SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:08]
+CLOCK: [2016-08-05 Fri 21:40]--[2016-08-05 Fri 21:42] =>  0:02
+** DONE [#C] % to go () [] {}                                     :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:08]
+CLOCK: [2016-08-05 Fri 22:25]--[2016-08-05 Fri 22:26] =>  0:01
+** DONE [#C] s instead of xi                                      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:08]
+CLOCK: [2016-08-05 Fri 22:44]--[2016-08-05 Fri 22:44] =>  0:00
+** DONE [#C] dip,dap instead of vipd,vapd                         :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:09]
+CLOCK: [2016-08-06 Sat 22:32]--[2016-08-06 Sat 22:33] =>  0:01
+** DONE [#C] dip dap   dap will include space around paragraph    :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:09]
+CLOCK: [2016-08-06 Sat 22:34]--[2016-08-06 Sat 22:35] =>  0:01
+** DONE [#C] df{char} then press . to repeatly operate, quickly delete :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:10]
+CLOCK: [2016-08-07 Sun 00:21]--[2016-08-07 Sun 00:22] =>  0:01
+** DONE [#C] d combined with easymotion to more quickly delete    :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:10]
+CLOCK: [2016-08-07 Sun 00:23]--[2016-08-07 Sun 00:23] =>  0:00
+** DONE [#C] Y instead of y$                                      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:10]
+CLOCK: [2016-08-07 Sun 09:41]--[2016-08-07 Sun 09:43] =>  0:02
+** DONE [#C] easymotion combined with incremental search          :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:10]
+CLOCK: [2016-08-07 Sun 14:10]--[2016-08-07 Sun 14:11] =>  0:01
+** DONE [#C] g/ok/normal Ono  add no to row before one containg ok :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:23]
+CLOCK: [2016-08-08 Mon 16:39]--[2016-08-08 Mon 16:40] =>  0:01
+** DONE [#C] :cp previous erro  :cn next error :cc show detail erro :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:30]
+CLOCK: [2016-08-08 Mon 20:40]--[2016-08-08 Mon 20:41] =>  0:01
+** DONE [#C] Using dW to delete the word that is seperated word_word2 word1-word2 :NOTE:
+CLOSED: [2016-10-08 Sat 15:36]
+CLOCK: [2016-08-23 Tue 19:32]--[2016-08-23 Tue 19:34] =>  0:02
+** DONE [#C] Insert info when new file is created                 :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 15:37]
+CLOCK: [2016-08-24 Wed 00:40]--[2016-08-24 Wed 00:47] =>  0:07
+#+BEGIN_SRC vimL
+"新建.c,.h,.sh,.java文件，自动插入文件头 
+autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java exec ":call SetTitle()" 
+func SetTitle() 
+  "如果文件类型为.sh文件 
+  if &filetype == 'sh' 
+    call setline(1,"\#########################################################################") 
+    call append(line("."), "\# File Name: ".expand("%")) 
+    call append(line(".")+1, "\# Author:zgq") 
+    call append(line(".")+2, "\# mail: heijiw@163.com") 
+    call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
+    call append(line(".")+4, "\#########################################################################") 
+    call append(line(".")+5, "\#!/bin/bash") 
+    call append(line(".")+6, "") 
+  else 
+    call setline(1, "/*************************************************************************") 
+    call append(line("."), "	> File Name: ".expand("%")) 
+    call append(line(".")+1, "	> Author: zgq") 
+    call append(line(".")+2, "	> Mail: heijiw@163.com") 
+    call append(line(".")+3, "	> Created Time: ".strftime("%c")) 
+    call append(line(".")+4, " ************************************************************************/") 
+    call append(line(".")+5, "")
+  endif
+  if &filetype == 'cpp'
+    call append(line(".")+6, "#include<iostream>")
+    call append(line(".")+7, "using namespace std;")
+    call append(line(".")+8, "")
+  endif
+  if &filetype == 'c'
+    call append(line(".")+6, "#include<stdio.h>")
+    call append(line(".")+7, "")
+  endif
+  "新建文件后，自动定位到文件末尾
+  autocmd BufNewFile * normal G
+endfunc 
+#+END_SRC
+** DONE [#C] insert char after word,ea instead of lllla,insert char before word bi instead of hhhi :NOTE:
+CLOSED: [2016-10-08 Sat 19:11]
+CLOCK: [2016-08-24 Wed 11:25]--[2016-08-24 Wed 11:28] =>  0:03
+** DONE [#C] ctrlsf.vim plugin for looking up content in project you want quickly :NOTE:
+CLOSED: [2016-10-08 Sat 19:13]
+CLOCK: [2016-08-24 Wed 19:35]--[2016-08-24 Wed 19:36] =>  0:01
+** DONE [#C] % to matched ( {    g; to older location of change list :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 19:17]
+CLOCK: [2016-08-25 Thu 11:45]--[2016-08-25 Thu 11:49] =>  0:04
+** DONE [#C] instead of esc, press v to concel selected region    :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 19:27]
+CLOCK: [2016-08-25 Thu 11:53]--[2016-08-25 Thu 11:53] =>  0:00
+
+** DONE [#C] Changelist or jumplist is better than search             :NOTE:
+CLOSED: [2016-10-08 Sat 20:42]
+CLOCK: [2016-08-26 Fri 13:48]--[2016-08-26 Fri 14:03] =>  0:15
+Very often i need to modify a bit config then exit vim to execute command for testing whether effective,
+frequently,i will go back to continue modify,therefore it is neccessity to find the last modified content,
+maybe using search is a awesome idea,however there is yet another better way to do this,you can take full advantage of changelist of vim.
+pressing twice ' exclusively will jump to the last modified location.
+** DONE [#C] noremap <Leader>w :w<CR>  to save quickly                :NOTE:
+CLOSED: [2016-10-08 Sat 20:51]
+CLOCK: [2016-08-26 Fri 20:41]--[2016-08-26 Fri 20:42] =>  0:01
+** DONE [#C] g; instead of Fa                                         :NOTE:
+CLOSED: [2016-10-08 Sat 20:51]
+CLOCK: [2016-08-26 Fri 20:48]--[2016-08-26 Fri 20:54] =>  0:06
+Is is extremely useful when you modify a location then using f{x} to jump to char you want in line and
+realizing need to modify the location one more time.
+** DONE [#C] U Uppercase the visually-selected text.              :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 20:52]
+CLOCK: [2016-08-27 Sat 17:23]--[2016-08-27 Sat 17:24] =>  0:01
+** DONE [#C] = is for format code                                 :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 20:52]
+CLOCK: [2016-08-27 Sat 17:43]--[2016-08-27 Sat 17:44] =>  0:01
+** DONE [#C] YouCompleteMe for completing                         :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 20:52]
+CLOCK: [2016-08-27 Sat 18:59]--[2016-08-27 Sat 19:00] =>  0:01
+** DONE [#C] Let us improve it a little bit. Vim has a setting called autowrite that writes the content of the file automatically if you call :make. vim-go also makes use of this setting. Open your .vimrc and add the following: set autowrite :NOTE:
+CLOSED: [2016-10-08 Sat 20:53]
+CLOCK: [2016-08-27 Sat 19:34]--[2016-08-27 Sat 19:34] =>  0:00
+** DONE [#C] :GoImportAs import :GoDrop delete package  golang        :NOTE:
+CLOSED: [2016-10-08 Sat 20:54]
+CLOCK: [2016-08-27 Sat 20:28]--[2016-08-27 Sat 20:29] =>  0:01
+** DONE [#C] splitjoin for splitting multiple line and joining into a line :NOTE:
+CLOSED: [2016-10-08 Sat 20:54]
+CLOCK: [2016-08-27 Sat 20:53]--[2016-08-27 Sat 20:53] =>  0:00
+https://github.com/AndrewRadev/splitjoin.vim
+** DONE [#C] In our case :GoAlternate is used to switch between a test and non-test file.  golang :NOTE:
+CLOSED: [2016-10-08 Sat 20:57]
+CLOCK: [2016-08-27 Sat 22:18]--[2016-08-27 Sat 22:19] =>  0:01
+** DONE [#C] Go to definition    golang                               :NOTE:
+CLOSED: [2016-10-08 Sat 21:01]
+CLOCK: [2016-08-27 Sat 22:29]--[2016-08-27 Sat 22:30] =>  0:01
+Once we jump to a declaration, we also might want to get back into our previous location. 
+By default there is the Vim shortcut ctrl-o that jumps to the previous cursor location. 
+It works great when it does, but not good enough if you're navigating between Go declarations. 
+If, for example, you jump to a file with :GoDef and then scroll down to the bottom, 
+and then maybe to the top, ctrl-o will remember these locations as well. 
+So if you want to jump back to the previous location when invoking :GoDef, 
+you have to hit ctrl-o multiple times. And this is really annoying.
+
+We don't need to use this shortcut though, as vim-go has a better implementation for you. 
+There is a command :GoDefPop which does exactly this. vim-go keeps an internal stack list for all the locations you visit with :GoDef. 
+This means you can jump back easily again via :GoDefPop to your older locations, 
+and it works even if you scroll down/up in a file. 
+And because this is also used so many times we have the shortcut ctrl-t which calls under the hood :GoDefPop. So to recap:
+
+    Use ctrl-] or gd to jump to a definition, locally or globally
+    Use ctrl-t to jump back to the previous location
+** DONE [#C] GoDefStack for showing old location   go.vim             :NOTE:
+CLOSED: [2016-10-08 Sat 21:04]
+CLOCK: [2016-08-27 Sat 22:37]--[2016-08-27 Sat 22:38] =>  0:01
+There is a command that shows all these and it's called :GoDefStack. 
+If you call it, you'll see that a custom window with a list of your old locations will be shown.
+Just navigate to your desired location and hit enter. And finally to clear the stack list anytime call :GoDefStackClear.
+** DONE [#C] vim-go provides(overrides) two motion objects to move between functions. These are: :NOTE:
+CLOSED: [2016-10-08 Sat 21:17]
+CLOCK: [2016-08-27 Sat 22:51]--[2016-08-27 Sat 22:52] =>  0:01
+]] -> jump to next function
+[[ -> jump to previous function
+** DONE [#C] As usual with other features, we override the default normal shortcut K so that it invokes :GoDoc instead of man (or something else). It's really easy to find the documentation, just hit K in normal mode! golang :NOTE:
+CLOSED: [2016-10-08 Sat 21:18]
+CLOCK: [2016-08-27 Sat 23:24]--[2016-08-27 Sat 23:24] =>  0:00
+** DONE [#C] O instead of kS                                      :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:22]
+CLOCK: [2016-08-28 Sun 17:54]--[2016-08-28 Sun 17:54] =>  0:00
+** DONE [#C] GoRename be mappinged to <Leader>fn                      :NOTE:
+CLOSED: [2016-10-08 Sat 21:27]
+CLOCK: [2016-08-29 Mon 15:23]--[2016-08-29 Mon 15:23] =>  0:00
+** DONE [#C]  if there is situation of cursor here | (" ,the command of ci" could  directly modify content inside " :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:28]
+CLOCK: [2016-08-30 Tue 22:33]--[2016-08-30 Tue 22:35] =>  0:02
+** DONE [#C] C-w v instead of :vs                                 :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:29]
+CLOCK: [2016-08-30 Tue 23:29]--[2016-08-30 Tue 23:29] =>  0:00
+** DONE [#C] '. go to last edit location                          :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:29]
+CLOCK: [2016-08-30 Tue 23:38]--[2016-08-30 Tue 23:38] =>  0:00
+** DONE [#C] B to go start of word which is seperated by space  whatever content bewteen spaces will be as a whole word :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:32]
+CLOCK: [2016-09-01 Thu 20:50]--[2016-09-01 Thu 20:52] =>  0:02
+** DONE [#C] ]] to go next function                               :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:32]
+CLOCK: [2016-09-02 Fri 23:19]--[2016-09-02 Fri 23:19] =>  0:00
+** DONE [#C] You can execute more than one command by placing a | between two commands. :VIM:NOTE:
+CLOSED: [2016-10-08 Sat 21:33]
+CLOCK: [2016-09-05 Mon 19:29]--[2016-09-05 Mon 19:29] =>  0:00
+
+** DONE [#C] let g:multi_cursor_skip_key='<C-x>'                      :NOTE:
+CLOSED: [2016-10-08 Sat 21:39]
+** DONE [#C] L to bottom M to middle H to top                     :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:37]
+CLOCK: [2016-09-13 Tue 22:31]--[2016-09-13 Tue 22:32] =>  0:01
+** DONE [#C] Copy post form then generate code of data.Add        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:39]
+CLOCK: [2016-09-14 Wed 21:36]--[2016-09-14 Wed 21:37] =>  0:01
+s/\/\/\(.\{-}\)\:\(.*\)/\0\r\tdata.Add("\1","\2")
+
+** DONE [#C] Transform request header to code                         :NOTE:
+CLOSED: [2016-10-09 Sun 00:41]
+CLOCK: [2016-09-15 Thu 01:01]--[2016-09-15 Thu 01:03] =>  0:02
+s/\(.\{-}\):\(.*\)/req2.Header.Add("\1","\2")/g
+
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin:https://172.16.0.5:8443
+
+req2.Header.Add("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
+req2.Header.Add("Origin","https://172.16.0.5:8443")
+
+http://stackoverflow.com/questions/1305853/how-can-i-make-my-match-non-greedy-in-vim
+Instead of .* use .\{-}.
+%s/style=".\{-}"//g
+Also, see :help non-greedy
+** DONE [#C] [{ to go { while cursor in the middle of {}          :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:41]
+CLOCK: [2016-09-15 Thu 15:03]--[2016-09-15 Thu 15:04] =>  0:01
+** DONE [#C] Using ctrlsp to search whole project                     :NOTE:
+CLOSED: [2016-10-09 Sun 00:43]
+CLOCK: [2016-09-15 Thu 16:43]--[2016-09-15 Thu 16:43] =>  0:00
+#+BEGIN_SRC vimL
+nnoremap <leader>ps :CtrlSF<CR>
+#+END_SRC
+** DONE [#C] Change cursor shape in different modes                   :NOTE:
+CLOSED: [2016-10-09 Sun 00:44]
+CLOCK: [2016-09-16 Fri 23:12]--[2016-09-16 Fri 23:12] =>  0:00
+http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes
+** DONE [#C] :x instead of :wq                                        :NOTE:
+CLOSED: [2016-10-09 Sun 00:45]
+CLOCK: [2016-09-19 Mon 19:04]--[2016-09-19 Mon 19:04] =>  0:00
+** DONE [#C] K to view document                                   :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-20 Tue 14:02]--[2016-09-20 Tue 14:02] =>  0:00
+** DONE [#C] :GoTestFunc to test single function golang               :NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-20 Tue 14:05]--[2016-09-20 Tue 14:05] =>  0:00
+** DONE [#C] Quickfix mapping                                     :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-24 Sat 15:15]--[2016-09-24 Sat 15:16] =>  0:01
+" ----------------------------------------------------------------------------
+" Quickfix 
+" ----------------------------------------------------------------------------
+nnoremap ]q :cnext<cr>zz
+nnoremap [q :cprev<cr>zz
+nnoremap ]l :lnext<cr>zz
+nnoremap [l :lprev<cr>zz
+** DONE [#C] expand("<cWORD>"  to get word at current cursor          :NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-24 Sat 16:37]--[2016-09-24 Sat 16:37] =>  0:00
+** DONE [#C] let file = expand("%:p") get full path of current  file :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-24 Sat 16:55]--[2016-09-24 Sat 16:56] =>  0:01
+** DONE [#C] getline to get content of specific line              :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:48]
+CLOCK: [2016-09-24 Sat 17:00]--[2016-09-24 Sat 17:02] =>  0:02
+#!/bin/bash
+first line
+
+getline(1) is equalent to first line
+** DONE [#C] Redraw to clear screen                               :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:48]
+CLOCK: [2016-09-24 Sat 17:06]--[2016-09-24 Sat 17:08] =>  0:02
+** DONE [#C] if !a:output | return | endif                        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:48]
+CLOCK: [2016-09-24 Sat 17:14]--[2016-09-24 Sat 17:15] =>  0:01
+if don't output then return
+** DONE [#C] exists('s:vim_exec_buf')  whether variable existed   :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:48]
+CLOCK: [2016-09-24 Sat 17:17]--[2016-09-24 Sat 17:18] =>  0:01
+** DONE [#C] bufexists(s:vim_exec_buf) whether buf existed        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:48]
+CLOCK: [2016-09-24 Sat 17:18]--[2016-09-24 Sat 17:19] =>  0:01
+** DONE [#C] Delete buffer named vim-exec-output and new a buffer in vertical window :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:49]
+CLOCK: [2016-09-24 Sat 18:02]--[2016-09-24 Sat 18:04] =>  0:02
+#+BEGIN_SRC vimL
+    silent!  bdelete [vim-exec-output]
+    silent!  vertical botright split new
+    silent!  file [vim-exec-output]
+ #+END_SRC
+** DONE [#C] command mode mapping                                 :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:49]
+CLOCK: [2016-09-24 Sat 19:00]--[2016-09-24 Sat 19:01] =>  0:01
+" ----------------------------------------------------------------------------
+" Readline-style key bindings in command-line (excerpt from rsi.vim)
+" ----------------------------------------------------------------------------
+cnoremap        <C-A> <Home>
+cnoremap        <C-B> <Left>
+cnoremap <expr> <C-D> getcmdpos()>strlen(getcmdline())?"\<Lt>C-D>":"\<Lt>Del>"
+cnoremap <expr> <C-F> getcmdpos()>strlen(getcmdline())?&cedit:"\<Lt>Right>"
+cnoremap        <M-b> <S-Left>
+cnoremap <M-f> <S-Right>
+** DONE [#C] v:count receive the times of operating text object   :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:49]
+CLOCK: [2016-09-24 Sat 19:10]--[2016-09-24 Sat 19:11] =>  0:01
+** DONE [#C] xnoremap is only for visual mode,vnoremap is for select mode and visual mode :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:50]
+CLOCK: [2016-09-24 Sat 19:47]--[2016-09-24 Sat 19:48] =>  0:01
+http://stackoverflow.com/questions/24782903/vim-mapping-for-visual-line-mode
+** DONE [#C] C-] to jump to a tag  is useful when reading help    :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:50]
+CLOCK: [2016-09-24 Sat 21:57]--[2016-09-24 Sat 21:57] =>  0:00
+** DONE [#C] :h split() to view document of split funciton        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:50]
+CLOCK: [2016-09-24 Sat 23:43]--[2016-09-24 Sat 23:43] =>  0:00
+** DONE [#C] To split a string in individual characters           :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:50]
+CLOCK: [2016-09-24 Sat 23:45]--[2016-09-24 Sat 23:46] =>  0:01
+	To split a string in individual characters:
+			:for c in split(mystring, '\zs')
+** DONE [#C] Add indent object, is very useful in python,shell and so on :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:51]
+CLOCK: [2016-09-24 Sat 23:46]--[2016-09-24 Sat 23:49] =>  0:03
+
+#+BEGIN_SRC vimL
+" ----------------------------------------------------------------------------
+" ?ii / ?ai | indent-object
+" ?io       | strictly-indent-object
+" ----------------------------------------------------------------------------
+function! s:indent_len(str)
+    return type(a:str) == 1 ? len(matchstr(a:str, '^\s*')) : 0
+endfunction
+
+function! s:indent_object(op, skip_blank, b, e, bd, ed)
+    let i = min([s:indent_len(getline(a:b)), s:indent_len(getline(a:e))])
+    let x = line('$')
+    let d = [a:b, a:e]
+    if i == 0 && empty(getline(a:b)) && empty(getline(a:e))
+        let [b, e] = [a:b, a:e]
+        while b > 0 && e <= line('$')
+            let b -= 1
+            let e += 1
+            let i = min(filter(map([b, e], 's:indent_len(getline(v:val))'), 'v:val != 0'))
+            if i > 0
+                break
+            endif
+        endwhile
+    endif
+
+    for triple in [[0, 'd[o] > 1', -1], [1, 'd[o] < x', +1]]
+        let [o, ev, df] = triple
+        while eval(ev)
+            let line = getline(d[o] + df)
+            let idt = s:indent_len(line)
+            if eval('idt '.a:op.' i') && (a:skip_blank || !empty(line)) || (a:skip_blank && empty(line))
+                let d[o] += df
+            else | break | end
+        endwhile
+    endfor
+
+    execute printf('normal! %dGV%dG', max([1, d[0] + a:bd]), min([x, d[1] + a:ed]))
+endfunction
+
+xnoremap <silent> ii :<c-u>call <SID>indent_object('>=', 1, line("'<"), line("'>"), 0, 0)<cr>
+onoremap <silent> ii :<c-u>call <SID>indent_object('>=', 1, line('.'), line('.'), 0, 0)<cr>
+xnoremap <silent> ai :<c-u>call <SID>indent_object('>=', 1, line("'<"), line("'>"), -1, 1)<cr>
+onoremap <silent> ai :<c-u>call <SID>indent_object('>=', 1, line('.'), line('.'), -1, 1)<cr>
+xnoremap <silent> io :<c-u>call <SID>indent_object('==', 0, line("'<"), line("'>"), 0, 0)<cr>
+onoremap <silent> io :<c-u>call <SID>indent_object('==', 0, line('.'), line('.'), 0, 0)<cr>
+
+
+#+END_SRC
+** DONE [#C] Add several useful text object                       :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:51]
+CLOCK: [2016-09-25 Sun 00:11]--[2016-09-25 Sun 00:15] =>  0:04
+#+BEGIN_SRC vimL
+" ----------------------------------------------------------------------------
+" ?i_ ?a_ ?i. ?a. ?i, ?a, ?i/
+" ----------------------------------------------------------------------------
+function! s:between_the_chars(incll, inclr, char, vis)
+  let cursor = col('.')
+  let line   = getline('.')
+  let before = line[0 : cursor - 1]
+  let after  = line[cursor : -1]
+  let [b, e] = [cursor, cursor]
+
+  try
+    let i = stridx(join(reverse(split(before, '\zs')), ''), a:char)
+    if i < 0 | throw 'exit' | end
+    let b = len(before) - i + (a:incll ? 0 : 1)
+
+    let i = stridx(after, a:char)
+    if i < 0 | throw 'exit' | end
+    let e = cursor + i + 1 - (a:inclr ? 0 : 1)
+
+    execute printf("normal! 0%dlhv0%dlh", b, e)
+catch 'exit'
+    call s:textobj_cancel()
+    if a:vis
+      normal! gv
+    endif
+  finally
+    " cleanup command history
+    if histget(':', -1) =~ '<snr>[0-9_]*between_the_chars('
+      call histdel(':', -1)
+    endif
+    echo
+  endtry
+endfunction
+
+for [s:c, s:l] in items({'_': 0, '.': 0, ',': 0, '/': 1, '-': 0})
+  execute printf("xmap <silent> i%s :<c-u>call <sid>between_the_chars(0,  0, '%s', 1)<cr><plug>(toc)", s:c, s:c)
+  execute printf("omap <silent> i%s :<c-u>call <sid>between_the_chars(0,  0, '%s', 0)<cr><plug>(toc)", s:c, s:c)
+  execute printf("xmap <silent> a%s :<c-u>call <sid>between_the_chars(%s, 1, '%s', 1)<cr><plug>(toc)", s:c, s:l, s:c)
+  execute printf("omap <silent> a%s :<c-u>call <sid>between_the_chars(%s, 1, '%s', 0)<cr><plug>(toc)", s:c, s:l, s:c)
+endfor
+
+#+END_SRC
+** DONE [#C] Change color scheme                                  :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:51]
+CLOCK: [2016-09-25 Sun 19:34]--[2016-09-25 Sun 19:35] =>  0:01
+
+#+BEGIN_SRC vimL
+function! s:colors(...)
+  return filter(map(filter(split(globpath(&rtp, 'colors/*.vim'), "\n"),
+        \                  'v:val !~ "^/usr/"'),
+        \           'fnamemodify(v:val, ":t:r")'),
+        \       '!a:0 || stridx(v:val, a:1) >= 0')
+endfunction
+" ----------------------------------------------------------------------------
+" <F8> | Color scheme selector
+" ----------------------------------------------------------------------------
+function! s:rotate_colors()
+  if !exists('s:colors')
+    let s:colors = s:colors()
+  endif
+  let name = remove(s:colors, 0)
+  call add(s:colors, name)
+  execute 'colorscheme' name
+  redraw
+  echo name
+endfunction
+nnoremap <silent> <F8> :call <SID>rotate_colors()<cr>
+#+END_SRC
+** DONE [#C] Rename vim  window name                              :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:51]
+CLOCK: [2016-09-25 Sun 20:27]--[2016-09-25 Sun 20:30] =>  0:03
+" Automatic rename of tmux window
+  if exists('$TMUX') && !exists('$NORENAME')
+    au BufEnter * if empty(&buftype) | call system('tmux rename-window '.expand('%:t:S')) | endif
+    au VimLeave * call system('tmux set-window automatic-rename on')
+endif
+** DONE [#C] set clipboard=unnamed is for "* set clipboard=unnamedplus is for "+ :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:52]
+CLOCK: [2016-09-25 Sun 20:42]--[2016-09-25 Sun 20:42] =>  0:00
+** DONE [#C] vimrc take effect on the fly                         :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:52]
+CLOCK: [2016-09-25 Sun 22:06]--[2016-09-25 Sun 22:08] =>  0:02
+ au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+** DONE [#C] Help in new tab                                      :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:52]
+CLOCK: [2016-09-25 Sun 22:12]--[2016-09-25 Sun 22:12] =>  0:00
+#+BEGIN_SRC vimL
+" ----------------------------------------------------------------------------
+" Help in new tabs
+" ----------------------------------------------------------------------------
+function! s:helptab()
+  if &buftype == 'help'
+    wincmd T
+    nnoremap <buffer> q :q<cr>
+  endif
+endfunction
+autocmd vimrc BufEnter *.txt call s:helptab()
+
+#+END_SRC
+** DONE [#C] Using https://github.com/tpope/vim-repeat to repeat plugin command :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 00:52]
+CLOCK: [2016-09-25 Sun 22:56]--[2016-09-25 Sun 22:58] =>  0:02
+For example,pressing . to execute cs"' one more time is not working by default,in order to make it work,using this plugin
+
+** DONE [#C] Using https://github.com/tpope/vim-endwise to automactically complete some statement like if,while :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:04]
+CLOCK: [2016-09-25 Sun 23:10]--[2016-09-25 Sun 23:11] =>  0:01
+** DONE [#C] q to quit help                                       :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:04]
+CLOCK: [2016-09-25 Sun 23:24]--[2016-09-25 Sun 23:24] =>  0:00
+** DONE [#C] gci# to uncomment a paragraph                        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:05]
+CLOCK: [2016-09-28 Wed 08:10]--[2016-09-28 Wed 08:11] =>  0:01
+** DONE [#C] ]% to go unmatched bracket                           :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:06]
+CLOCK: [2016-09-29 Thu 18:54]--[2016-09-29 Thu 18:55] =>  0:01
+** DONE [#C] '' is different to ""                                :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:07]
+CLOCK: [2016-09-29 Thu 19:21]--[2016-09-29 Thu 19:22] =>  0:01
+** DONE Disable automatic comment insertion                       :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:08]
+CLOCK: [2016-09-30 Fri 18:57]--[2016-09-30 Fri 18:58] =>  0:01
+** DONE quick switch tab,buffer using tab                         :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-02 Sun 14:03]--[2016-10-02 Sun 14:04] =>  0:01
+" go to the previous thing
+func! s:alt_wintabbuf() abort
+  let [b,w,t] = [g:lastbuf,g:lastwin,g:lasttab]
+  if (b[1] - w[1]) > 0.2 && (b[1] - t[1]) > 0.2 && buflisted(b[0])
+    return "\<C-^>"
+  endif
+  if w[1] >= b[1] && w[1] >= t[1] && w[0] <= winnr('$') && w[0] != winnr()
+    return "\<C-w>p"
+  endif
+  if t[1] > b[1] && t[1] > w[1] && t[0] <= tabpagenr('$')
+    return t[0].'gt'
+  endif
+  if winnr('$') > 1
+    return "\<C-w>w"
+  endif
+  if buflisted(bufnr('#'))
+    return "\<C-^>"
+  endif
+  if tabpagenr('$') > 1
+    return "gt"
+  endif
+endf
+augroup vimrc_last_wintabbuf
+  autocmd!
+  let [g:lastbuf,g:lastwin,g:lasttab] = [[1,0],[1,0],[1,0]]
+  if exists('*reltimefloat')
+    autocmd BufLeave * let g:lastbuf = [bufnr('%'), reltimefloat(reltime())]
+    autocmd WinLeave * let g:lastwin = [winnr(),    reltimefloat(reltime())]
+    autocmd TabLeave * let g:lasttab = [tabpagenr(),reltimefloat(reltime())]
+  endif
+augroup ENDnnoremap <silent><expr> <tab> (v:count > 0 ? '<C-w>w' : <SID>alt_wintabbuf())
+** DONE <leader>enter enter buffer forth and back                 :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-02 Sun 16:10]--[2016-10-02 Sun 16:10] =>  0:00
+** DONE set completeopt-=preview to close top window              :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-02 Sun 22:22]--[2016-10-02 Sun 22:22] =>  0:00
+** DONE Never backup file                                         :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-02 Sun 23:02]--[2016-10-02 Sun 23:03] =>  0:01
+set nobackup
+set noswapfile
+set nowritebackup
+** DONE nnoremap <Leader>Q :qa!<cr>                               :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-02 Sun 23:05]--[2016-10-02 Sun 23:05] =>  0:00
+** DONE cnoremap <C-g> <C-u><BS>                                  :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:12]
+CLOCK: [2016-10-03 Mon 23:25]--[2016-10-03 Mon 23:25] =>  0:00
+** DONE Adjust window size                                        :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-03 Mon 23:27]--[2016-10-03 Mon 23:27] =>  0:00
+nnoremap <silent><Down>  <C-w>-
+nnoremap <silent><Up>    <C-w>+
+nnoremap <silent><Left>  <C-w><
+nnoremap <silent><Right> <C-w>>
+** DONE [<space> to add  above line ]<space> to add below line vim-unimpaired :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-04 Tue 19:35]--[2016-10-04 Tue 19:37] =>  0:02
+** DONE argument object                                           :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-04 Tue 20:59]--[2016-10-04 Tue 21:00] =>  0:01
+https://github.com/wellle/targets.vim
+** DONE https://github.com/tommcdo/vim-exchange  easy exchange    :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-05 Wed 07:00]--[2016-10-05 Wed 07:01] =>  0:01
+
+** DONE Using == align line                                       :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-05 Wed 07:06]--[2016-10-05 Wed 07:06] =>  0:00
+** DONE vim-zeal for offline document                             :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-05 Wed 08:20]--[2016-10-05 Wed 08:20] =>  0:00
+** DONE junegunn/vim-after-object                                 :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:14]
+CLOCK: [2016-10-07 Fri 21:01]--[2016-10-07 Fri 21:01] =>  0:00
+** DONE c2in( to change in the second block                       :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:14]
+CLOCK: [2016-10-07 Fri 21:17]--[2016-10-07 Fri 21:18] =>  0:01
+** DONE wellle/targets.vim add some awesome target object and tricks. cin() for changing in the next (, ci( will seek correspondening block in current line :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:14]
+CLOCK: [2016-10-07 Fri 21:18]--[2016-10-07 Fri 21:19] =>  0:01
+** DONE Using [[ to jump to function line                         :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:14]
+CLOCK: [2016-10-08 Sat 00:42]--[2016-10-08 Sat 00:42] =>  0:00
+
+** DONE Using indent motion [+ [- [= ]+ ]- ]=                     :VIM:NOTE:
+CLOSED: [2016-10-09 Sun 01:14]
+CLOCK: [2016-10-08 Sat 00:47]--[2016-10-08 Sat 00:48] =>  0:01

@@ -1,0 +1,26 @@
+* Archlinux
+** DONE [#C] makepkg -sri  download compile install package           :NOTE:
+CLOSED: [2016-10-08 Sat 15:07]
+CLOCK: [2016-08-05 Fri 16:13]--[2016-08-05 Fri 16:13] =>  0:00
+** DONE [#C] echo $(grep -c "full system upgrade" /var/log/pacman.log)   the number of system upgrade :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:30]
+CLOCK: [2016-08-09 Tue 10:29]--[2016-08-09 Tue 10:30] =>  0:01
+** DONE [#C] echo  $(head -n1 /var/log/pacman.log | cut -d " " -f 1,2) first install time :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:30]
+CLOCK: [2016-08-09 Tue 10:32]--[2016-08-09 Tue 10:33] =>  0:01
+** DONE [#C] add archlinux plugin to zsh                              :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 18:30]--[2016-08-22 Mon 18:30] =>  0:00
+** DONE [#C] replace sudo pacman -S with pacin  to install whatever you want :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 18:33]--[2016-08-22 Mon 18:34] =>  0:01
+** DONE [#C] using yaourt to manage aur package http://www.ostechnix.com/install-yaourt-arch-linux/  archlinux :NOTE:
+CLOSED: [2016-10-08 Sat 15:36]
+CLOCK: [2016-08-23 Tue 10:14]--[2016-08-23 Tue 10:15] =>  0:01
+** DONE [#C] pacupg instead of sudo pacman -Syu archlinux       :NOTE:LINUX:
+CLOSED: [2016-10-09 Sun 00:44]
+CLOCK: [2016-09-17 Sat 00:06]--[2016-09-17 Sat 00:06] =>  0:00
+** DONE yaourt proxy                                            :NOTE:LINUX:
+CLOSED: [2016-10-09 Sun 01:13]
+CLOCK: [2016-10-04 Tue 09:11]--[2016-10-04 Tue 09:11] =>  0:00
+https://horizonsplit.wordpress.com/2012/02/03/240/

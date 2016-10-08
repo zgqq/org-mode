@@ -1,0 +1,347 @@
+* Shell
+** DONE Ctrl + s will lock terminal to no response for any operation! :NOTE:
+CLOSED: [2016-09-29 Thu 08:26]
+   CLOCK: [2016-07-02 Sat 17:05]--[2016-07-02 Sat 17:06] =>  0:01
+   Ctrl + q will unlock
+** DONE Compared to digit using	-gt -eq in shell                      :NOTE:
+CLOSED: [2016-09-29 Thu 08:26]
+   CLOCK: [2016-07-02 Sat 17:07]--[2016-07-02 Sat 17:08] =>  0:01
+** DONE Input .v.b.l then press tab can match .vimrc.before.local quickly :NOTE:
+CLOSED: [2016-09-29 Thu 08:26]
+   CLOCK: [2016-07-02 Sat 21:56]--[2016-07-02 Sat 21:57] =>  0:01
+** DONE Ctrl +s forward search C-r backward search                    :NOTE:
+CLOSED: [2016-10-08 Sat 01:35]
+CLOCK: [2016-07-11 Mon 09:25]--[2016-07-11 Mon 09:26] =>  0:01
+** DONE Find . -print0 will delete all of \n                          :NOTE:
+CLOSED: [2016-10-08 Sat 01:38]
+CLOCK: [2016-07-11 Mon 21:34]--[2016-07-11 Mon 21:35] =>  0:01
+** DONE -0      Change xargs to expect NUL (``\0'') characters as separators,
+CLOSED: [2016-10-08 Sat 01:39]
+         instead of spaces and newlines.  This is expected to be used in
+         concert with the -print0 function in find(1). 
+      (in concert with 结合,相呼应)                                                              :NOTE:
+CLOCK: [2016-07-12 Tue 10:39]--[2016-07-12 Tue 10:41] =>  0:02
+**  compare string using = in shell                                   :NOTE:
+** ^yes^no^ is equals to !!:s/yes/no                                  :NOTE:
+CLOCK: [2016-07-16 Sat 21:58]--[2016-07-16 Sat 22:00] =>  0:02
+** DONE [#C] !^ is first argument of last command !$ is the last argument of last command :NOTE:
+CLOSED: [2016-10-08 Sat 14:12]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:12]
+** DONE [#C] using /opt instead of cd /opt                            :NOTE:
+CLOSED: [2016-10-08 Sat 14:12]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:12]
+** DONE [#C] Using C-c when give up command being inputed       :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 14:15]
+** DONE [#C] sed -i to modify file                                    :NOTE:
+CLOSED: [2016-10-08 Sat 14:32]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 14:32]
+CLOCK: [2016-07-31 Sun 18:18]--[2016-07-31 Sun 18:18] =>  0:00
+** DONE [#C] $*  get content producted by last command          :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:00]
+CLOCK: [2016-08-02 Tue 15:19]--[2016-08-02 Tue 15:21] =>  0:02
+** DONE [#C] Alt+. instead of !$                                :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:00]
+CLOCK: [2016-08-02 Tue 21:28]--[2016-08-02 Tue 21:29] =>  0:01
+** DONE [#C] fk command instead of sudo !!                            :NOTE:
+CLOSED: [2016-10-08 Sat 15:04]
+CLOCK: [2016-08-04 Thu 11:48]--[2016-08-04 Thu 11:49] =>  0:01
+** DONE [#C] ... instead of cd ...                              :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:05]
+CLOCK: [2016-08-04 Thu 12:52]--[2016-08-04 Thu 12:52] =>  0:00
+** DONE [#C] -s if file exists and not empty                    :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:05]
+CLOCK: [2016-08-05 Fri 11:42]--[2016-08-05 Fri 11:43] =>  0:01
+** DONE [#C] $# argument number $* all arguments                      :NOTE:
+CLOSED: [2016-10-08 Sat 15:06]
+CLOCK: [2016-08-05 Fri 12:02]--[2016-08-05 Fri 12:42] =>  0:40
+** DONE [#C] ${filename%} % is right to left  # left to right   :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:07]
+CLOCK: [2016-08-05 Fri 14:29]--[2016-08-05 Fri 14:30] =>  0:01
+** DONE [#C] xrdb ~/.Xresources fresh urxvt config                    :NOTE:
+CLOSED: [2016-10-08 Sat 15:08]
+CLOCK: [2016-08-05 Fri 16:32]--[2016-08-05 Fri 16:33] =>  0:01
+** DONE [#C] sudo fuser -m -k -i /media/zgq/d    find proccess using the directory :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:09]
+CLOCK: [2016-08-06 Sat 11:05]--[2016-08-06 Sat 11:05] =>  0:00
+** DONE [#C] press gg    go to top  tmux                              :NOTE:
+CLOSED: [2016-10-08 Sat 15:10]
+CLOCK: [2016-08-06 Sat 23:22]--[2016-08-06 Sat 23:22] =>  0:00
+** DONE [#C] ${name:-zgq}       ${var:-default value}           :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:11]
+CLOCK: [2016-08-07 Sun 21:33]--[2016-08-07 Sun 21:33] =>  0:00
+** DONE [#C] find * '*/\.*' -prune -print   search all no hidden files :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:20]
+CLOCK: [2016-08-07 Sun 21:38]--[2016-08-07 Sun 21:41] =>  0:03
+** DONE [#C] f, get the latest files d, for directory ,, for all    fasd is a awesome productivity tool :NOTE:
+CLOSED: [2016-10-08 Sat 15:22]
+CLOCK: [2016-08-08 Mon 14:46]--[2016-08-08 Mon 14:47] =>  0:01
+** DONE [#C] !:2 for the second argument of last command        :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:22]
+CLOCK: [2016-08-08 Mon 15:09]--[2016-08-08 Mon 15:10] =>  0:01
+** DONE [#C] updatedb update location for locate command        :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:25]
+CLOCK: [2016-08-08 Mon 17:33]--[2016-08-08 Mon 17:33] =>  0:00
+** DONE [#C]  unzip resources.jar | awk '{ print $2 }' | sed -n '1!p' | cut -d "/" -f1 | awk '!x[$0]++' |xargs -I {} rm -rf "{}"  to remove file that resources.jar contains :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:25]
+CLOCK: [2016-08-08 Mon 18:07]--[2016-08-08 Mon 18:11] =>  0:04
+** DONE [#C] export $EDITOR    for C-x C-e                      :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:31]
+CLOCK: [2016-08-09 Tue 12:39]--[2016-08-09 Tue 12:40] =>  0:01
+** DONE [#C] bd to cd parent directory quickly  bd is a awesome plugin :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:31]
+CLOCK: [2016-08-09 Tue 17:13]--[2016-08-09 Tue 17:14] =>  0:01
+** DONE [#C] fzf Ctrl+t to search file globally                 :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:31]
+CLOCK: [2016-08-09 Tue 20:28]--[2016-08-09 Tue 20:29] =>  0:01
+** DONE [#C] Instead of inputing full path,using cd /h/z/d/j/p +tab to go to directory /home/zgq/Downloads/java/pkg in zsh :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:31]
+CLOCK: [2016-08-10 Wed 09:30]--[2016-08-10 Wed 09:33] =>  0:03
+** DONE [#C] using alias for command most frequently used for example alias ll="ls -al" :NOTE:
+CLOSED: [2016-10-08 Sat 15:32]
+** DONE [#C] Ctrl+t bind to cd directory  fzf-cd-widget         :SHELL:NOTE:
+CLOSED: [2016-10-08 Sat 15:32]
+CLOCK: [2016-08-10 Wed 09:38]--[2016-08-10 Wed 09:41] =>  0:03
+** DONE [#C] Using tab to select multiple target  fzf                 :NOTE:
+CLOSED: [2016-10-08 Sat 15:32]
+CLOCK: [2016-08-14 Sun 11:03]--[2016-08-14 Sun 11:03] =>  0:00
+** DONE [#C] Using alias -s for default editor file opened using      :NOTE:
+CLOSED: [2016-10-08 Sat 15:32]
+CLOCK: [2016-08-15 Mon 23:18]--[2016-08-15 Mon 23:21] =>  0:03
+** DONE [#C] install zsh-syntax-highlighting to check error on the fly :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 18:36]--[2016-08-22 Mon 18:37] =>  0:01
+** DONE [#C] alias mkdir = 'mkdir -p' zsh                             :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 18:49]--[2016-08-22 Mon 18:49] =>  0:00
+** DONE [#C] install zsh-autosuggestions to prompt automactically according to history. zsh :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 18:59]--[2016-08-22 Mon 19:00] =>  0:01
+** DONE [#C] sudo plugin for adding sudo to the front of last command :NOTE:
+CLOSED: [2016-10-08 Sat 15:33]
+CLOCK: [2016-08-22 Mon 19:14]--[2016-08-22 Mon 19:15] =>  0:01
+** DONE [#C] https://github.com/zquestz/s command line tool for searching :NOTE:
+CLOSED: [2016-10-08 Sat 15:34]
+CLOCK: [2016-08-22 Mon 20:01]--[2016-08-22 Mon 20:02] =>  0:01
+** DONE [#C] sg (){
+CLOSED: [2016-10-08 Sat 15:34]
+    s $*
+    i3-msg workspace 2
+} for interactiving with i3                                                         :NOTE:
+CLOCK: [2016-08-22 Mon 20:02]--[2016-08-22 Mon 20:04] =>  0:02
+** DONE [#C] using howdoi to solve simple problem through network     :NOTE:
+CLOSED: [2016-10-08 Sat 15:34]
+CLOCK: [2016-08-22 Mon 21:19]--[2016-08-22 Mon 21:20] =>  0:01
+** DONE [#C] alias rmrf="rm -rf"                                      :NOTE:
+CLOSED: [2016-10-08 Sat 19:13]
+CLOCK: [2016-08-24 Wed 17:08]--[2016-08-24 Wed 17:08] =>  0:00
+** DONE [#C] Using tldr to view usage of command                      :NOTE:
+CLOSED: [2016-10-08 Sat 19:13]
+CLOCK: [2016-08-24 Wed 18:47]--[2016-08-24 Wed 18:47] =>  0:00
+** DONE [#C] To quickly visit whether there is a file or directory you want in current directory,using a fzf widget binded to C-t :NOTE:
+CLOSED: [2016-10-08 Sat 19:15]
+CLOCK: [2016-08-25 Thu 10:07]--[2016-08-25 Thu 10:10] =>  0:03
+** DONE [#C] Do something and continue in original dir                :NOTE:
+CLOSED: [2016-10-08 Sat 19:16]
+CLOCK: [2016-08-25 Thu 10:53]--[2016-08-25 Thu 10:53] =>  0:00
+      # do something in current dir
+      (cd /some/other/dir && other-command)
+      # continue in original dir
+** DONE [#C] set -g escape-time 0  to avoid delay tmux                :NOTE:
+CLOSED: [2016-10-08 Sat 20:34]
+CLOCK: [2016-08-25 Thu 13:56]--[2016-08-25 Thu 13:57] =>  0:01
+** DONE [#C] tmux-resurrect for saving and restoring all session ,window and pane,program running with pane appeals to me :NOTE:
+CLOSED: [2016-10-08 Sat 20:36]
+CLOCK: [2016-08-25 Thu 18:34]--[2016-08-25 Thu 18:37] =>  0:03
+https://github.com/tmux-plugins/tmux-resurrect
+** DONE [#C] tmux-continuum                                           :NOTE:
+CLOSED: [2016-10-08 Sat 20:36]
+CLOCK: [2016-08-25 Thu 21:55]--[2016-08-25 Thu 22:03] =>  0:08
+CLOCK: [2016-08-25 Thu 21:55]--[2016-08-25 Thu 21:55] =>  0:00
+CLOCK: [2016-08-25 Thu 21:53]--[2016-08-25 Thu 21:55] =>  0:02
+CLOCK: [2016-08-25 Thu 21:41]--[2016-08-25 Thu 21:53] =>  0:12
+CLOCK: [2016-08-25 Thu 21:39]--[2016-08-25 Thu 21:41] =>  0:02
+CLOCK: [2016-08-25 Thu 20:24]--[2016-08-25 Thu 21:39] =>  1:15
+CLOCK: [2016-08-25 Thu 20:22]--[2016-08-25 Thu 20:23] =>  0:01
+https://github.com/tmux-plugins/tmux-continuum
+** DONE [#C] hub for creating repository of github.com or you want    :NOTE:
+CLOSED: [2016-10-08 Sat 20:37]
+CLOCK: [2016-08-25 Thu 22:14]--[2016-08-25 Thu 22:15] =>  0:01
+https://github.com/github/hub
+** DONE [#C] progress for viewing running command https://github.com/Xfennec/progress :NOTE:
+CLOSED: [2016-10-08 Sat 20:37]
+CLOCK: [2016-08-25 Thu 22:32]--[2016-08-25 Thu 22:33] =>  0:01
+** DONE [#C] [ "$*" = "ok" ] shell string judge whether string is equal :NOTE:
+CLOSED: [2016-10-08 Sat 20:37]
+CLOCK: [2016-08-25 Thu 22:42]--[2016-08-25 Thu 22:44] =>  0:02
+** DONE [#C] find . -type f -name 'install.sh' -print0 | xargs -0 -I {} sed -i '/shell\/dotfile/s/shell/bin/' {} :NOTE:
+CLOSED: [2016-10-08 Sat 20:39]
+CLOCK: [2016-08-26 Fri 10:09]--[2016-08-26 Fri 11:46] =>  1:37
+find all file named install.sh in current dir and subdir,locate line in file containg string of "shell" and replace shell with bin
+** DONE [#C] Find files and replace in shell                          :NOTE:
+CLOSED: [2016-10-08 Sat 20:41]
+CLOCK: [2016-08-26 Fri 11:47]--[2016-08-26 Fri 11:52] =>  0:05
+#+BEGIN_SRC sh
+  for file in $(find . -type f -name 'install.sh') 
+  do 
+      dir=${file%/*} #strip filename 
+      dir=${dir#./} #strip first ./
+      dir=${dir%/*} #strip last directory
+      sed -i "/link_dotfile/s/ \([^ ]\+\)/ ~\/dotfiles\/$dir/" $file #sed don't support not greedy match, using [^] instead.
+  done
+
+#+END_SRC
+** DONE [#C] To exit the script as soon as one of the commands failed, add this at the beginning: set -e :NOTE:
+CLOSED: [2016-10-08 Sat 20:52]
+CLOCK: [2016-08-27 Sat 18:23]--[2016-08-27 Sat 18:23] =>  0:00
+** DONE [#C] Now it is not necessary to input space for seperating most of fuzzy finder :NOTE:
+CLOSED: [2016-10-08 Sat 21:29]
+CLOCK: [2016-08-30 Tue 22:44]--[2016-08-30 Tue 22:46] =>  0:02
+** DONE [#C] The take command                                         :NOTE:
+CLOSED: [2016-10-08 Sat 21:29]
+CLOCK: [2016-08-31 Wed 10:55]--[2016-08-31 Wed 10:55] =>  0:00
+One of my favourite shortcut command provided by Oh-my-zsh. Basically, 
+what the take command does is to create a directory and change
+ the path to it. So instead of doing the following:
+
+md someDirectory && cd someDirectory
+
+I could just do:
+
+take someDirectory
+
+That’s really nice !
+** DONE [#C] Tmuxinator is a awesome plugin of tmux for creating project structure  automactically :NOTE:
+CLOSED: [2016-10-08 Sat 21:32]
+CLOCK: [2016-09-02 Fri 10:12]--[2016-09-02 Fri 10:13] =>  0:01
+** DONE [#C] linux backup                                             :NOTE:
+CLOSED: [2016-10-08 Sat 21:33]
+CLOCK: [2016-09-04 Sun 22:15]--[2016-09-04 Sun 22:24] =>  0:09
+ sudo rsync -aAX / /mnt/ubuntu --exclude-from $HOME/dotfiles/backup/exclude.txt 2>/home/zgq/tmp/rsync.err
+X preserve xattr  
+what is Xattr?In other words, they describe some additional properties of the file. Normally this information is limited,
+ like ownership and dates
+
+A preserve ACLs 
+What is ACLs? 
+additional security features such as Access
+       Control Lists (ACLs) may be implemented using extended attributes.
+exclude.txt
+- */.cache/
+- */temp/
+- */tmp/
+- /dev/*
+- /proc/*
+- /sys/*
+- /tmp/*
+- /run/*
+- /mnt/*
+- /media/*
+- /lost+found
+- *.swp
+** DONE [#C] bash_profile is loaded when logining,while bashrc is load at the time it is switched to :NOTE:
+CLOSED: [2016-10-08 Sat 22:50]
+CLOCK: [2016-09-12 Mon 11:00]--[2016-09-12 Mon 11:02] =>  0:02
+** DONE [#C] find . -type f -regex '.*\(swp\|swo\)$' -print0 | xargs -0 -I {} rm -r {} :NOTE:
+CLOSED: [2016-10-08 Sat 22:51]
+CLOCK: [2016-09-12 Mon 11:28]--[2016-09-12 Mon 11:29] =>  0:01
+find filename ending with swp or swo and delete its.
+** DONE [#C] crontab  key steps                                       :NOTE:
+CLOSED: [2016-10-09 Sun 00:36]
+CLOCK: [2016-09-12 Mon 21:32]--[2016-09-12 Mon 21:34] =>  0:02
+first:the script is executable
+second:set crontab to system daemon
+** DONE [#C] Random background (archlinux)                            :NOTE:
+CLOSED: [2016-10-09 Sun 00:37]
+CLOCK: [2016-09-13 Tue 20:44]--[2016-09-13 Tue 20:45] =>  0:01
+#+BEGIN_SRC sh
+if [ -f "/tmp/bg" ]; then
+    value=`cat /tmp/bg`
+else
+    touch /tmp/bglog
+    value=0
+    touch /tmp/bg
+    echo 0>/tmp/bg
+fi
+i=0
+count=$(ls -1 "/home/zgq/Desktop/images" | wc -l)
+_dfiles="/home/zgq/Desktop/images/*"
+for file in $_dfiles ; do
+    if [ $i -eq $value ]; then
+        tmp=$(($i+1))
+        if [ $tmp -eq $count ]; then
+            echo '0' > /tmp/bg
+            DISPLAY=:0 feh --bg-fill "$file" 2> /tmp/bglog
+        else
+            ((i++))
+            echo $i > /tmp/bg
+            DISPLAY=:0 feh --bg-fill "$file" 2> /tmp/bglog
+            break
+        fi
+    fi
+    ((i++))
+done
+
+#+END_SRC
+** DONE [#C] Backup system archlinux                                  :NOTE:
+CLOSED: [2016-10-09 Sun 00:37]
+CLOCK: [2016-09-13 Tue 22:17]--[2016-09-13 Tue 22:18] =>  0:01
+10 22 * * 6 sh /home/zgq/bin/weekly.sh 
+#+BEGIN_SRC sh
+  sudo mount /dev/sda1 /mnt/idle
+  sudo rsync -aAX / /mnt/idle/archlinux/backup --exclude-from /home/zgq/dotfiles/backup/exclude.txt 2>/home/zgq/tmp/rsync.err
+#+END_SRC
+** DONE [#C] diff to compared two file                                :NOTE:
+CLOSED: [2016-10-09 Sun 00:37]
+CLOCK: [2016-09-14 Wed 18:57]--[2016-09-14 Wed 18:57] =>  0:00
+** DONE [#C] One of the most useful feature is autocomplete zsh :SHELL:NOTE:
+CLOSED: [2016-10-09 Sun 00:43]
+CLOCK: [2016-09-16 Fri 16:50]--[2016-09-16 Fri 16:51] =>  0:01
+#{{{自定义补全 
+#补全 ping 
+zstyle ':completion:*:ping:*' hosts 192.168.1.{1,50,51,100,101} www.google.com  
+** DONE [#C] zsh remain a same history                                :NOTE:
+CLOSED: [2016-10-09 Sun 00:43]
+CLOCK: [2016-09-16 Fri 20:25]--[2016-09-16 Fri 20:26] =>  0:01
+#相同的历史路径只保留一个  
+setopt PUSHD_IGNORE_DUPS  
+** DONE [#C] speed-test test network                                  :NOTE:
+CLOSED: [2016-10-09 Sun 00:46]
+CLOCK: [2016-09-19 Mon 19:22]--[2016-09-19 Mon 19:23] =>  0:01
+https://github.com/sindresorhus/speed-test
+** DONE [#C] Using antigen to manage plugins of zsh,  antigen cache-reset to clear cache :NOTE:
+CLOSED: [2016-10-09 Sun 00:47]
+CLOCK: [2016-09-24 Sat 13:57]--[2016-09-24 Sat 13:58] =>  0:01
+** DONE [#C] bash contain element                               :SHELL:NOTE:
+CLOSED: [2016-10-09 Sun 00:49]
+CLOCK: [2016-09-24 Sat 17:56]--[2016-09-24 Sat 17:59] =>  0:03
+#+BEGIN_SRC sh
+ if [[$_AWESOME_PLUGINS =~ "fasd"]];then
+   echo "contained"
+ fi
+#+END_SRC
+** DONE [#C] https://github.com/oblique/create_ap               :NOTE:LINUX:
+CLOSED: [2016-10-09 Sun 01:05]
+CLOCK: [2016-09-27 Tue 03:00]--[2016-09-27 Tue 03:01] =>  0:01
+** DONE [#C] ln -s must use full path                           :NOTE:LINUX:
+CLOSED: [2016-10-09 Sun 01:06]
+CLOCK: [2016-09-29 Thu 02:26]--[2016-09-29 Thu 02:26] =>  0:00
+** DONE [#C] Add sudo to last command                           :NOTE:LINUX:
+CLOSED: [2016-10-09 Sun 01:06]
+CLOCK: [2016-09-29 Thu 06:51]--[2016-09-29 Thu 06:52] =>  0:01
+#+BEGIN_SRC sh
+  sudo-command-line() {
+      [[ -z $BUFFER ]] && zle up-history
+      [[ $BUFFER != sudo\ * ]] && {
+        typeset -a bufs
+        bufs=(${(z)BUFFER})
+        if (( $+aliases[$bufs[1]] )); then
+          bufs[1]=$aliases[$bufs[1]]
+        fi
+        bufs=(sudo $bufs)
+        BUFFER=$bufs
+      }
+      zle end-of-line
+  }
+  zle -N sudo-command-line
+  bindkey "^x^l" sudo-command-line
+#+END_SRC
