@@ -5,10 +5,14 @@
    CLOSED: [2016-07-01 Fri 23:32]
    - State "DONE"       from "TODO"       [2016-07-01 Fri 23:32]
    CLOCK: [2016-07-01 Fri 17:01]--[2016-07-01 Fri 17:05] =>  0:04
-** TODO [#A] Welfare 						       :WORK:
+** WAITING [#A] Welfare                                       :WORK:WAITING:
+- State "WAITING"    from "TODO"       [2016-08-25 Thu 13:26] \\
+  There are a sea of more significant works i need to do.
    [2016-07-01 Fri 17:49]
 
-** TODO [#B] The Big Bang Theory [100%]                            :PERSONAL:
+** DONE [#B] The Big Bang Theory [100%]                           :PERSONAL:
+CLOSED: [2016-08-06 Sat 23:18]
+- State "DONE"       from "TODO"       [2016-08-06 Sat 23:18]
    - State "DONE"       from "TODO"       [2016-07-06 Wed 13:10]
    CLOCK: [2016-07-01 Fri 23:33]--[2016-07-01 Fri 23:35] =>  0:02
 *** DONE [#B] The six season [100%]
@@ -194,15 +198,25 @@ CLOSED: [2016-07-14 Thu 09:40]
 CLOSED: [2016-07-09 Sat 21:32]
 - State "DONE"       from "TODO"       [2016-07-09 Sat 21:32]
   CLOCK: [2016-07-04 Mon 10:13]--[2016-07-04 Mon 10:14] =>  0:01
-** TODO [#B] Solve can using shortcut in org mode
+** CANCELLED [#B] Solve can using shortcut in org mode           :CANCELLED:
+CLOSED: [2016-08-08 Mon 15:04]
+- State "CANCELLED"  from "TODO"       [2016-08-08 Mon 15:04] \\
+  Forget what to do,please describe more detail next time
 
-** TODO [#B] Using dropbox to backup trival files
+** DONE [#B] Using dropbox to backup trival files
+CLOSED: [2016-08-23 Tue 12:49]
+- State "DONE"       from "TODO"       [2016-08-23 Tue 12:49]
    CLOCK: [2016-07-08 Fri 00:31]--[2016-07-08 Fri 00:41] =>  0:10
 
-** TODO [#B] Install youdao
+** CANCELLED [#B] Install youdao
+CLOSED: [2016-10-09 Sun 01:40]
+- State "CANCELED"   from "TODO"       [2016-10-09 Sun 01:40] \\
+  No neccessary
 CLOCK: [2016-07-09 Sat 21:30]--[2016-07-09 Sat 21:31] =>  0:01
 
-** TODO [#B] Backup system
+** DONE [#B] Backup system (Linux)
+CLOSED: [2016-09-04 Sun 22:30]
+- State "DONE"       from "TODO"       [2016-09-04 Sun 22:30]
 
 ** DONE [#B] Terminal copy to system
 CLOSED: [2016-07-17 Sun 13:56]
@@ -212,7 +226,9 @@ CLOSED: [2016-07-17 Sun 13:56]
 CLOSED: [2016-07-12 Tue 12:37]
 - State "DONE"       from "TODO"       [2016-07-12 Tue 12:37]
 CLOCK: [2016-07-11 Mon 14:53]--[2016-07-11 Mon 14:54] =>  0:01
-** TODO [#B] The big bang different between engineer and scientist 
+** DONE [#B] The big bang different between engineer and scientist
+https://www.zhihu.com/question/20402148
+CLOSED: [2016-09-11 Sun 15:48]
 CLOCK: [2016-07-11 Mon 16:08]--[2016-07-11 Mon 16:09] =>  0:01
 
 ** DONE [#B] The big bong adjust office important
@@ -238,7 +254,6 @@ CLOCK: [2016-07-12 Tue 09:52]--[2016-07-12 Tue 09:53] =>  0:01
 CLOSED: [2016-07-12 Tue 13:23]
 - State "DONE"       from "TODO"       [2016-07-12 Tue 13:23]
 
-** TODO [#B] Vim copy problem
 ** DONE [#B] Modity shortcut of tmux
 CLOSED: [2016-07-17 Sun 13:56]
 - State "DONE"       from "TODO"       [2016-07-17 Sun 13:56]
@@ -253,10 +268,14 @@ CLOCK: [2016-07-14 Thu 09:39]--[2016-07-14 Thu 09:40] =>  0:01
 CLOSED: [2016-07-19 Tue 17:50]
 - State "DONE"       from "TODO"       [2016-07-19 Tue 17:50]
 
-** TODO [#B] Add habit to arrange note
+** DONE [#B] Add habit to arrange note
+CLOSED: [2016-08-31 Wed 17:35]
+- State "DONE"       from "TODO"       [2016-08-31 Wed 17:35]
 CLOCK: [2016-07-19 Tue 17:54]--[2016-07-19 Tue 18:09] =>  0:15
 
-** TODO [#B] Learn i3 Window Manager
+** DONE [#B] Learn i3 Window Manager
+CLOSED: [2016-08-06 Sat 23:18]
+- State "DONE"       from "TODO"       [2016-08-06 Sat 23:18]
  
   [[file:~/.emacs.d/lisp/init-org.el::("UBUNTU".?u)]]
 
@@ -264,19 +283,196 @@ CLOCK: [2016-07-19 Tue 17:54]--[2016-07-19 Tue 18:09] =>  0:15
  
   [[file:~/.emacs.d/lisp/init-org.el::("UBUNTU".?u)]]
 
+** CANCELLED [#B] style i3 bar
+CLOSED: [2016-09-24 Sat 19:27]
+- State "CANCELLED"   from "TODO"       [2016-09-24 Sat 19:27] \\
+  Not neccessary
+CLOCK: [2016-08-07 Sun 20:41]--[2016-08-07 Sun 20:41] =>  0:00
+
+** CANCELLED [#B] look up for command snippet                    :CANCELLED:
+CLOSED: [2016-10-09 Sun 01:42]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:42] \\
+  No neccessary.
+CLOCK: [2016-08-08 Mon 15:06]--[2016-08-08 Mon 15:07] =>  0:01
+
+** DONE [#B] Modularize zshrc
+CLOSED: [2016-10-09 Sun 01:41]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:41]
+CLOCK: [2016-08-23 Tue 15:28]--[2016-08-23 Tue 15:32] =>  0:04
+Using plugin manager
+** DONE [#B] Configuring my vim
+CLOSED: [2016-09-17 Sat 12:38]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 12:38]
+CLOCK: [2016-08-24 Wed 00:15]--[2016-08-24 Wed 00:15] =>  0:00
+
+** CANCELLED [#B] Install howdoi https://github.com/gleitz/howdoi :CANCELLED:
+CLOSED: [2016-10-09 Sun 01:42]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:42] \\
+  No neccessary.
+CLOCK: [2016-08-24 Wed 18:15]--[2016-08-24 Wed 18:17] =>  0:02
+
+** DONE [#B] Install tldr https://github.com/tldr-pages/tldr
+CLOSED: [2016-08-24 Wed 18:47]
+- State "DONE"       from "TODO"       [2016-08-24 Wed 18:47]
+CLOCK: [2016-08-24 Wed 18:18]--[2016-08-24 Wed 18:19] =>  0:01
+
+** DONE [#B] Install youcompleteme
+CLOSED: [2016-08-27 Sat 13:29]
+- State "DONE"       from "TODO"       [2016-08-27 Sat 13:29]
+CLOCK: [2016-08-24 Wed 19:34]--[2016-08-24 Wed 19:35] =>  0:01
+
+** DONE [#B] Give explainshell a try
+CLOSED: [2016-09-17 Sat 12:38]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 12:38]
+CLOCK: [2016-08-25 Thu 13:29]--[2016-08-25 Thu 13:29] =>  0:00
+http://explainshell.org/
+
+** CANCELLED [#B] ibus for emacs                                 :CANCELLED:
+CLOSED: [2016-10-09 Sun 01:43]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:43] \\
+  No neccessity.
+CLOCK: [2016-08-25 Thu 13:29]--[2016-08-25 Thu 13:30] =>  0:01
+
+** TODO [#B] Configure vimfx 
+CLOCK: [2016-08-25 Thu 15:00]--[2016-08-25 Thu 15:01] =>  0:01
+
+** DONE [#B] Vim terminal theme
+CLOSED: [2016-08-26 Fri 13:36]
+- State "DONE"       from "TODO"       [2016-08-26 Fri 13:36]
+CLOCK: [2016-08-26 Fri 12:54]--[2016-08-26 Fri 12:55] =>  0:01
+
+** CANCELLED [#B] Configure vimfx                                :CANCELLED:
+CLOSED: [2016-09-17 Sat 11:28]
+CLOCK: [2016-08-26 Fri 19:45]--[2016-08-26 Fri 19:45] =>  0:00
+
+** DONE [#B] Optimize tmux pane operation
+CLOSED: [2016-10-09 Sun 01:43]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:43]
+CLOCK: [2016-08-26 Fri 19:49]--[2016-08-26 Fri 19:50] =>  0:01
+
+** DONE [#B] Buy tricket
+CLOSED: [2016-08-29 Mon 20:13]
+- State "DONE"       from "TODO"       [2016-08-29 Mon 20:13]
+CLOCK: [2016-08-28 Sun 12:42]--[2016-08-28 Sun 12:43] =>  0:01
+
+** DONE [#B] Install antigen being oh-my-zsh plugin
+CLOSED: [2016-10-09 Sun 01:43]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:43]
+CLOCK: [2016-08-31 Wed 10:56]--[2016-08-31 Wed 10:56] =>  0:00
+ 
+  [[file:~/Dropbox/org-gtd/notes.org::*Quick%20notes][Quick notes]]
+
+** TODO [#B] visualBox in linux
+CLOCK: [2016-09-03 Sat 16:27]--[2016-09-03 Sat 16:27] =>  0:00
+
+** TODO [#B] Devloping note helper
+CLOCK: [2016-09-04 Sun 23:03]--[2016-09-04 Sun 23:03] =>  0:00
+
+** DONE [#B] Optimizing ideavimrc paste and copy and adding vim-surround plugin
+CLOSED: [2016-09-12 Mon 13:19]
+- State "DONE"       from "TODO"       [2016-09-12 Mon 13:19]
+CLOCK: [2016-09-07 Wed 01:09]--[2016-09-07 Wed 01:10] =>  0:01
+
+** DONE [#B] Adding fzf snippet for inforce z of fasd
+CLOSED: [2016-09-17 Sat 12:52]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 12:52]
+CLOCK: [2016-09-08 Thu 18:01]--[2016-09-08 Thu 18:02] =>  0:01
+
+#+BEGIN_SRC sh
+  unalias z 
+  z() {
+    #[ $# -gt 0 ] && _z "$*" && return
+    cd "$(_z -l 2>&1 | fzf-tmux +s --tac --query "$*" | sed 's/^[0-9,.]* *//')"
+  }
+
+#+END_SRC
+
+** DONE [#B] Change background,and backup system automactically Archlinux
+CLOSED: [2016-09-13 Tue 22:21]
+- State "DONE"       from "TODO"       [2016-09-13 Tue 22:21]
+CLOCK: [2016-09-12 Mon 13:21]--[2016-09-12 Mon 13:22] =>  0:01
+
+** DONE [#B] vim delete file                                           :VIM:
+CLOSED: [2016-09-17 Sat 11:34]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 11:34]
+CLOCK: [2016-09-16 Fri 12:29]--[2016-09-16 Fri 12:29] =>  0:00
+http://stackoverflow.com/questions/16678661/how-can-i-delete-the-current-file-in-vim
+nnoremap <Leader>d. :call DeleteFileAndCloseBuffer()
+
+fun! DeleteFileAndCloseBuffer()
+  let choice = confirm("Delete file and close buffer?", "&Do it!\n&Nonono", 1)
+  if choice == 1 | call delete(@%) | q! | endif
+endfun
+
+** DONE [#B] Archlinux hibernate
+CLOSED: [2016-09-17 Sat 11:26]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 11:26]
+CLOCK: [2016-09-17 Sat 00:35]--[2016-09-17 Sat 00:35] =>  0:00
+https://wiki.archlinux.org/index.php/Power_management
+
+** DONE [#B] Auto adjust terminal size in browser workspace i3
+CLOSED: [2016-09-18 Sun 00:14]
+- State "DONE"       from "TODO"       [2016-09-18 Sun 00:14]
+CLOCK: [2016-09-17 Sat 15:40]--[2016-09-17 Sat 15:41] =>  0:01
+Using layout
+exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/zgq/.i3/workspace-1.json'"
+
+** DONE [#B] vim quick fix window close
+CLOSED: [2016-10-09 Sun 01:44]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:44]
+CLOCK: [2016-09-20 Tue 13:57]--[2016-09-20 Tue 13:57] =>  0:00
+
+** TODO [#B] Configure vimfx  [ for previous page ] for next page
+CLOCK: [2016-09-20 Tue 14:50]--[2016-09-20 Tue 14:50] =>  0:00
 
 * Habit
 ** NEXT [#C] Shave                                                   :HABIT:
+- State "DONE"       from "NEXT"       [2016-09-19 Mon 00:35]
+- State "DONE"       from "NEXT"       [2016-09-09 Fri 22:41]
+- State "DONE"       from "NEXT"       [2016-08-29 Mon 20:12]
 - State "DONE"       from "NEXT"       [2016-07-22 Fri 00:37]
 - State "DONE"       from "NEXT"       [2016-07-14 Thu 09:38]
    [2016-07-01 Fri 17:33]
-  SCHEDULED:  <2016-07-27 Wed .+5d/7d>
+  SCHEDULED:  <2016-09-24 Sat .+5d/7d>
    :PROPERTIES:
    :STYLE:    habit
    :REPEAT_TO_STATE: NEXT
-:LAST_REPEAT: [2016-07-22 Fri 00:37]
+:LAST_REPEAT: [2016-09-19 Mon 00:35]
    :END:      
-** NEXT [#C] A english tutorial                                      :HABIT:
+** CANCELLED [#C] A english tutorial                          :HABIT:WAITING:
+- State "CANCELED"   from "WAITING"    [2016-10-09 Sun 01:35] \\
+  No time
+- State "WAITING"    from "NEXT"       [2016-10-09 Sun 01:34] \\
+  No time at present.
+- State "DONE"       from "NEXT"       [2016-09-16 Fri 20:56]
+http://dictionary.cambridge.org/grammar/british-grammar/adjectives-and-adjective-phrases-typical-errors
+- State "DONE"       from "NEXT"       [2016-09-11 Sun 15:07]
+http://dictionary.cambridge.org/grammar/british-grammar/adjectives
+- State "DONE"       from "NEXT"       [2016-09-10 Sat 23:54]
+http://dictionary.cambridge.org/grammar/british-grammar/adjective-phrases-position
+- State "DONE"       from "NEXT"       [2016-09-09 Fri 22:50]
+http://dictionary.cambridge.org/grammar/british-grammar/adjective-phrases-functions
+- State "DONE"       from "NEXT"       [2016-09-08 Thu 16:13]
+http://dictionary.cambridge.org/grammar/british-grammar/adjective-phrases
+- State "DONE"       from "NEXT"       [2016-09-07 Wed 22:19]
+http://dictionary.cambridge.org/grammar/british-grammar/actual-and-actually
+- State "DONE"       from "NEXT"       [2016-09-06 Tue 15:36]
+http://dictionary.cambridge.org/grammar/british-grammar/across-over-or-through
+- State "DONE"       from "NEXT"       [2016-09-04 Sun 13:42]
+http://dictionary.cambridge.org/grammar/british-grammar/according-to
+- State "DONE"       from "NEXT"       [2016-09-03 Sat 13:49]
+http://dictionary.cambridge.org/grammar/british-grammar/accommodation
+- State "DONE"       from "NEXT"       [2016-09-02 Fri 20:31]
+http://dictionary.cambridge.org/grammar/british-grammar/abroad
+- State "DONE"       from "NEXT"       [2016-09-01 Thu 11:02]
+http://dictionary.cambridge.org/grammar/british-grammar/above
+- State "DONE"       from "NEXT"       [2016-08-31 Wed 17:30]
+http://dictionary.cambridge.org/grammar/british-grammar/about
+- State "DONE"       from "NEXT"       [2016-08-30 Tue 21:10]
+http://dictionary.cambridge.org/grammar/british-grammar/abbreviations-initials-and-acronyms
+- State "DONE"       from "NEXT"       [2016-08-29 Mon 22:05]
+http://dictionary.cambridge.org/grammar/british-grammar/a-an-and-the
+- State "DONE"       from "NEXT"       [2016-08-28 Sun 11:35]
 - State "DONE"       from "NEXT"       [2016-07-26 Tue 13:46]
 - State "DONE"       from "NEXT"       [2016-07-24 Sun 09:08]
 - State "DONE"       from "NEXT"       [2016-07-22 Fri 00:38]
@@ -290,28 +486,405 @@ CLOCK: [2016-07-09 Sat 07:13]--[2016-07-09 Sat 07:33] =>  0:20
 - State "DONE"       from "NEXT"       [2016-07-07 Thu 13:31]
 - State "DONE"       from "NEXT"       [2016-07-01 Fri 23:06]
   [2016-07-01 Fri 22:56]
-  SCHEDULED: <2016-07-27 Wed .+1d/2d>
+  SCHEDULED: <2016-10-10 Mon .+1d/2d>
    :PROPERTIES: 
    :STYLE:    habit
-   :REPEAT_TO_STATE: NEXT
-:LAST_REPEAT: [2016-07-26 Tue 13:46]
+:LAST_REPEAT: [2016-10-09 Sun 01:35]
    :END:      
+** NEXT [#C] Note                                                    :HABIT:
+[2016-08-11 Thu 10:36]
+[[file:~/org-gtd/gtd.org::*Workspace][Workspace]]
+SCHEDULED: <2016-09-16 Fri .+5d/7d>
+:PROPERTIES:
+:STYLE: habit
+:REPEAT_TO_STATE: NEXT
+:LAST_REPEAT: [2016-09-11 Sun 15:20]
+:END:
+** CANCELLED [#C] leetcode                                 :HABIT:CANCELLED:
+- State "CANCELED"   from "NEXT"       [2016-10-09 Sun 01:33] \\
+  No time
+- State "CANCELED"   from "NEXT"       [2016-10-09 Sun 01:30] \\
+  No time
+- State "CANCELED"   from "NEXT"       [2016-09-24 Sat 19:19] \\
+  No time to achive it
+- State "CANCELLED"  from "NEXT"       [2016-09-24 Sat 19:12] \\
+  No time
+- State "DONE"       from "NEXT"       [2016-09-11 Sun 14:50]
+https://leetcode.com/problems/count-and-say/
+#+BEGIN_SRC go
+func countAndSay(n int) string {
+	if n == 1 {
+		return "1"
+	}
+	read := "1"
+	for i := 1; i < n; i++ {
+		var newRead string
+		for j := 0; j < len(read); j++ {
+			count := 1
+			for j < len(read)-1 && read[j] == read[j+1] {
+				count++
+				j++
+			}
+			newRead += strconv.Itoa(count)
+			newRead += string(read[j])
+		}
+		read = newRead
+		newRead = ""
+	}
+	return read
+}
+
+#+END_SRC
+
+- State "DONE"       from "NEXT"       [2016-09-10 Sat 17:13]
+https://leetcode.com/problems/valid-parentheses/
+
+- State "DONE"       from "NEXT"       [2016-09-08 Thu 16:09]
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+- State "DONE"       from "NEXT"       [2016-09-06 Tue 15:24]
+https://leetcode.com/problems/regular-expression-matching/
+- State "DONE"       from "NEXT"       [2016-09-03 Sun 13:39]
+https://leetcode.com/problems/longest-palindromic-substring/
+[2016-09-02 Fri 20:31]
+
+SCHEDULED: <2016-10-10 Mon .+1d/3d>
+:PROPERTIES:
+:STYLE: habit
+:REPEAT_TO_STATE: CANCELLED
+:LAST_REPEAT: [2016-10-09 Sun 01:33]
+:END:
 * Problems
+** DONE [#B] Vim copy problem
+CLOSED: [2016-08-07 Sun 15:32]
+- State "DONE"       from "TODO"       [2016-08-07 Sun 15:32]
+not install vim but gvim
 ** DONE [#B] Change transfer way of repo created by hub
 git config --global hub.protocol ssh 
 CLOSED: [2016-07-19 Tue 18:39]
 - State "DONE"       from "TODO"       [2016-07-19 Tue 18:39]
 CLOCK: [2016-07-17 Sun 15:11]--[2016-07-17 Sun 15:13] =>  0:02
 
-** TODO [#B] Sometimes,搜狗拚音 could not be triggered in ubuntu :UBUNTU:PROBLEM:
+** CANCELLED [#B] Sometimes,搜狗拚音 could not be triggered in ubuntu :UBUNTU:PROBLEM:CANCELLED:
+CLOSED: [2016-08-08 Mon 15:05]
+- State "CANCELLED"  from "TODO"       [2016-08-08 Mon 15:05] \\
+  Already give up ubuntu
 CLOCK: [2016-07-19 Tue 18:44]--[2016-07-19 Tue 18:49] =>  0:05
 
-** TODO [#B] To use i3                                      :UBUNTU:PROBLEM:
+** CANCELLED [#B] To use i3                       :UBUNTU:PROBLEM:CANCELLED:
+CLOSED: [2016-08-08 Mon 15:03]
+- State "CANCELLED"  from "TODO"       [2016-08-08 Mon 15:03] \\
+  Now using arch linux
 CLOCK: [2016-07-22 Fri 10:54]--[2016-07-22 Fri 10:55] =>  0:01
 
+** DONE [#B] terminal transparent                                   :PROBLEM:
+CLOSED: [2016-08-06 Sat 23:18]
+- State "DONE"       from "TODO"       [2016-08-06 Sat 23:18]
+CLOCK: [2016-08-06 Sat 10:37]--[2016-08-06 Sat 10:38] =>  0:01
+
+** DONE [#B] Couldn't get a file descriptor referring to the console :PROBLEM:
+[ -z "$DISPLAY" -a "$(fgconsole)" -eq 1 ] && exec startx    (in .zprofile file)
+fgconsole has no privilege
+change into [ -z "$DISPLAY" -a "$(sudo fgconsole)" -eq 1 ] && exec startx
+CLOSED: [2016-08-07 Sun 12:54]
+- State "DONE"       from "TODO"       [2016-08-07 Sun 12:54]
+CLOCK: [2016-08-06 Sat 23:21]--[2016-08-06 Sat 23:22] =>  0:01
+
+** CANCELLED [#B] cloud not connect wifi arch linux      :PROBLEM:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:44]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:44] \\
+  No neccessity.
+- State "DONE"       from "TODO"       [2016-08-09 Tue 12:21]
+CLOCK: [2016-08-07 Sun 13:09]--[2016-08-07 Sun 13:09] =>  0:00
+maybe need to wait for a while
+
+** DONE [#B] Fix fasd ,f ,  tab completion                         :PROBLEM:
+cause: orginal eval "$(fasd --init posix-alias zsh-hook)"
+
+#zsh-hook             # define _fasd_preexec and add it to zsh preexec array
+#zsh-ccomp            # zsh command mode completion definitions
+#zsh-ccomp-install    # setup command mode completion for zsh
+#zsh-wcomp            # zsh word mode completion definitions
+#zsh-wcomp-install    # setup word mode completion for zsh
+#bash-hook            # add hook code to bash $PROMPT_COMMAND
+#bash-ccomp           # bash command mode completion definitions
+#bash-ccomp-install   # setup command mode completion for bash
+#posix-alias          # define aliases that applies to all posix shells
+#posix-hook           # setup $PS1 hook for shells that's posix compatible
+#tcsh-alias           # define aliases for tcsh
+#tcsh-hook            # setup tcsh precmd alias
+change into eval "$(fasd --init posix-alias zsh-hook zsh-ccomp zsh-ccomp-install zsh-wcomp zsh-wcomp-install)"
+CLOSED: [2016-08-07 Sun 15:21]
+- State "DONE"       from "TODO"       [2016-08-07 Sun 15:21]
+CLOCK: [2016-08-07 Sun 14:49]--[2016-08-07 Sun 14:50] =>  0:01
+
+** DONE [#B] Import ssl certificate globally on linux              :PROBLEM:
+CLOSED: [2016-08-10 Wed 15:42]
+- State "DONE"       from "TODO"       [2016-08-10 Wed 15:42]
+CLOCK: [2016-08-10 Wed 15:39]--[2016-08-10 Wed 15:39] =>  0:00
+archlinux : https://wiki.archlinux.org/index.php/GoAgent_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
+** DONE [#B] Firefox certificate error                             :PROBLEM:
+CLOSED: [2016-08-11 Thu 10:35]
+- State "DONE"       from "TODO"       [2016-08-11 Thu 10:35]
+CLOCK: [2016-08-10 Wed 18:39]--[2016-08-10 Wed 18:39] =>  0:00
+delete cert8.db or check /usr/share/ca-certificates/trust-source 
+
+** CANCELLED [#B] Is zsh slow?                           :PROBLEM:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:44]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:44] \\
+  The problem seems to pass off.
+CLOCK: [2016-08-22 Mon 18:53]--[2016-08-22 Mon 18:53] =>  0:00
+
+** CANCELLED [#B] python ssl problem                     :PROBLEM:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:45]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:45] \\
+  Out of date.
+CLOCK: [2016-08-22 Mon 21:31]--[2016-08-22 Mon 21:31] =>  0:00
+
+** DONE [#B] Dropbox Setup "No internet connection"                :PROBLEM:
+CLOSED: [2016-08-23 Tue 12:11]
+- State "DONE"       from "TODO"       [2016-08-23 Tue 12:11]
+CLOCK: [2016-08-23 Tue 11:41]--[2016-08-23 Tue 11:41] =>  0:00
+Need to root privilege 
+** DONE [#B] How to trigger input method ibus when system startup or reboot :PROBLEM:
+CLOSED: [2016-10-09 Sun 01:54]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:54]
+CLOCK: [2016-08-23 Tue 11:52]--[2016-08-23 Tue 11:55] =>  0:03
+/usr/bin/ibus-daemon &
+
+** CANCELLED [#B] Tmux pane is closed automactically     :PROBLEM:CANCELLED:
+CLOSED: [2016-08-23 Tue 14:20]
+- State "CANCELLED"  from "TODO"       [2016-08-23 Tue 14:20] \\
+  duplicate
+CLOCK: [2016-08-23 Tue 12:25]--[2016-08-23 Tue 12:26] =>  0:01
+
+** DONE [#B] exec ls command after sourcing .zshrc tmux pane is closed automactically :PROBLEM:
+CLOSED: [2016-08-23 Tue 14:21]
+- State "DONE"       from "TODO"       [2016-08-23 Tue 14:21]
+CLOCK: [2016-08-23 Tue 13:00]--[2016-08-23 Tue 13:02] =>  0:02
+https://github.com/zsh-users/zsh-autosuggestions/issues/126
+
+** DONE [#B] org-mode title show odd.                              :PROBLEM:
+CLOSED: [2016-08-24 Wed 17:13]
+- State "DONE"       from "TODO"       [2016-08-24 Wed 17:13]
+CLOCK: [2016-08-24 Wed 17:09]--[2016-08-24 Wed 17:11] =>  0:02
+There should be a CR between every headline.
+
+** DONE [#B] Can't establish secure internet connection dropbox    :PROBLEM:
+CLOSED: [2016-10-09 Sun 01:46]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:46]
+CLOCK: [2016-08-26 Fri 14:11]--[2016-08-26 Fri 14:11] =>  0:00
+Modifiy host 
+
+** DONE [#B] vim cursor shape  in insert mode                      :PROBLEM:
+CLOSED: [2016-09-16 Fri 23:13]
+- State "DONE"       from "TODO"       [2016-09-16 Fri 23:13]
+CLOCK: [2016-08-27 Sat 21:03]--[2016-08-27 Sat 21:04] =>  0:01
+http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes
+urxvt seems to not work 
+** DONE [#B] How to adjust browser to let invisible content below automcatically? :PROBLEM:
+CLOSED: [2016-08-31 Wed 17:35]
+- State "DONE"       from "TODO"       [2016-08-31 Wed 17:35]
+CLOCK: [2016-08-28 Sun 10:42]--[2016-08-28 Sun 10:44] =>  0:02
+Sometimes,i need to read some tutorials of which opening another application to do something in term,therefore,i will adjust width of browser smaller,but there has some invisible content,so i need to move my mouse repeatly for those content,**Are there some ways to avoid this?**
+Read mode
+
+** DONE [#B] Multicursor input does not work in org-mode           :PROBLEM:
+CLOSED: [2016-08-31 Wed 10:26]
+- State "DONE"       from "TODO"       [2016-08-31 Wed 10:26]
+CLOCK: [2016-08-31 Wed 10:25]--[2016-08-31 Wed 10:26] =>  0:01
+https://github.com/magnars/multiple-cursors.el/issues/180
+
+** DONE [#B] Cannot connect to the Docker daemon. Is the docker daemon running on this host? :PROBLEM:
+CLOSED: [2016-09-07 Wed 22:57]
+- State "DONE"       from "TODO"       [2016-09-07 Wed 22:57]
+CLOCK: [2016-09-07 Wed 22:56]--[2016-09-07 Wed 22:56] =>  0:00
+try sudo docker instead of docker
+
+** DONE [#B] Starting tomcat server but port 1099 is used already  :PROBLEM:
+CLOSED: [2016-09-14 Wed 13:29]
+- State "DONE"       from "TODO"       [2016-09-14 Wed 13:29]
+CLOCK: [2016-09-14 Wed 13:27]--[2016-09-14 Wed 13:27] =>  0:00
+LINUX
+Open a terminal instance.
+fuser 1099/tcp
+This should return you a process ID.
+1099/tcp:            31596
+where 31596 is the process ID. Now you can either use the process ID to kill it or just bash the following -
+fuser -k 1099/tcp
+
+** CANCELLED [#B] Rename file                        :VIM:PROBLEM:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:47]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:47] \\
+  No neccessary.
+CLOCK: [2016-09-15 Thu 13:35]--[2016-09-15 Thu 13:35] =>  0:00
+
+** CANCELLED [#B] gt don't open a new window         :VIM:PROBLEM:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:47]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:47] \\
+  The problem seems to pass off.
+CLOCK: [2016-09-15 Thu 15:28]--[2016-09-15 Thu 15:28] =>  0:00
+
+** DONE [#B] zsh font                                              :PROBLEM:
+CLOSED: [2016-09-16 Fri 17:35]
+- State "DONE"       from "TODO"       [2016-09-16 Fri 17:35]
+CLOCK: [2016-09-16 Fri 16:32]--[2016-09-16 Fri 16:32] =>  0:00
+https://github.com/powerline/fonts
+
+** DONE [#B] xterm configure input method                          :PROBLEM:
+CLOSED: [2016-09-16 Fri 23:08]
+- State "DONE"       from "TODO"       [2016-09-16 Fri 23:08]
+CLOCK: [2016-09-16 Fri 23:07]--[2016-09-16 Fri 23:07] =>  0:00
+XTerm*inputMethod:ibus  
+
+** DONE [#B] mount: unknown filesystem type 'vfat'                 :PROBLEM:
+CLOSED: [2016-09-17 Sat 01:12]
+- State "DONE"       from "TODO"       [2016-09-17 Sat 01:12]
+CLOCK: [2016-09-17 Sat 01:07]--[2016-09-17 Sat 01:07] =>  0:00
+try reboot 
+http://unix.stackexchange.com/questions/94267/vfat-not-recognized-in-debian
+
+** CANCELLED [#B] We trust you have received the usual lecture from the local System :PROBLEM:LINUX:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:47]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:47] \\
+  Out of date.
+CLOCK: [2016-09-21 Wed 05:36]--[2016-09-21 Wed 05:36] =>  0:00
+https://wiki.debian.org/sudo
+
+** DONE [#B] set-option -g status-utf8 on tmux                     :PROBLEM:
+CLOSED: [2016-09-24 Sat 10:18]
+- State "DONE"       from "TODO"       [2016-09-24 Sat 10:18]
+CLOCK: [2016-09-24 Sat 10:16]--[2016-09-24 Sat 10:17] =>  0:01
+https://github.com/tmux/tmux/issues/540#issuecomment-249292975
+
+** DONE [#B] Pressing o in vim is become slow                  :VIM:PROBLEM:
+CLOSED: [2016-09-24 Sat 10:20]
+- State "DONE"       from "TODO"       [2016-09-24 Sat 10:20]
+CLOCK: [2016-09-24 Sat 10:19]--[2016-09-24 Sat 10:19] =>  0:00
+http://superuser.com/questions/161178/why-does-vim-delay-for-a-second-whenever-i-use-the-o-command-open-a-new-line
+
+** DONE [#B] Vim system cliboard                               :VIM:PROBLEM:
+CLOSED: [2016-09-25 Sun 20:39]
+- State "DONE"       from "TODO"       [2016-09-25 Sun 20:39]
+CLOCK: [2016-09-25 Sun 20:39]--[2016-09-25 Sun 20:39] =>  0:00
+http://vim.wikia.com/wiki/Accessing_the_system_clipboard
+
+** DONE [#B] Cursor shape doesn't change in tmux                   :PROBLEM:
+CLOSED: [2016-09-29 Thu 02:44]
+- State "DONE"       from "TODO"       [2016-09-29 Thu 02:44]
+CLOCK: [2016-09-29 Thu 02:43]--[2016-09-29 Thu 02:43] =>  0:00
+Add this to your .tmux.config:
+set -g -a terminal-overrides ',*:Ss=\E[%p1%d q:Se=\E[2 q'
+https://github.com/neovim/neovim/wiki/FAQ#where-should-i-put-my-config-vimrc
+
+** DONE [#B] tpope/vim-fugitive not work with neovim           :VIM:PROBLEM:
+CLOSED: [2016-10-09 Sun 01:48]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:48]
+CLOCK: [2016-09-30 Fri 17:58]--[2016-09-30 Fri 17:58] =>  0:00
+The file should be in git repository.
+
+** DONE [#B] It is long that that pressing o takes time at the first time :VIM:PROBLEM:
+CLOSED: [2016-09-30 Fri 18:14]
+- State "DONE"       from "TODO"       [2016-09-30 Fri 18:14]
+CLOCK: [2016-09-30 Fri 18:12]--[2016-09-30 Fri 18:14] =>  0:02
+https://github.com/neovim/neovim/issues/5402
+sirver/ultisnips lazy load
+
+** DONE [#B] vim-go doesn't work with tagbar                       :PROBLEM:
+CLOSED: [2016-10-08 Sat 00:39]
+- State "DONE"       from "TODO"       [2016-10-08 Sat 00:39]
+CLOCK: [2016-10-08 Sat 00:37]--[2016-10-08 Sat 00:39] =>  0:02
+Tagbar could not be lazy load.
+
+** DONE [#B] How do I run a shell script without using “sh” or “bash” commands? :PROBLEM:
+CLOSED: [2016-10-09 Sun 01:56]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:56]
+CLOCK: [2016-10-08 Sat 23:09]--[2016-10-08 Sat 23:09] =>  0:00
+http://stackoverflow.com/questions/8779951/how-do-i-run-a-shell-script-without-using-sh-or-bash-commands
 
 * New Stuff
-
-** TODO [#C] awesome vm                                               :STUFF:
+** DONE [#B]awesome vm                                                :STUFF:
+CLOSED: [2016-08-25 Thu 14:54]
+- State "DONE"       from "TODO"       [2016-08-25 Thu 14:54]
 CLOCK: [2016-07-19 Tue 22:32]--[2016-07-19 Tue 22:33] =>  0:01
+Now using i3
+
+** DONE [#B] percol                                                   :STUFF:
+CLOSED: [2016-08-25 Thu 14:54]
+- State "DONE"       from "TODO"       [2016-08-25 Thu 14:54]
+CLOCK: [2016-08-01 Mon 16:05]--[2016-08-01 Mon 16:05] =>  0:00
+Percol is awesome,but it is still a bit slow,
+now using fzf instead of it.
+
+** TODO [#B] Trying wakatime                                          :STUFF:
+CLOCK: [2016-09-06 Tue 22:52]--[2016-09-06 Tue 22:53] =>  0:01
+
+** DONE [#B] Give docker a try
+CLOSED: [2016-09-09 Fri 23:25]
+- State "DONE"       from "TODO"       [2016-09-09 Fri 23:25]
+CLOCK: [2016-09-06 Tue 22:48]--[2016-09-06 Tue 22:48] =>  0:00
+https://wiki.archlinux.org/index.php/Docker
+https://prakhar.me/docker-curriculum/
+
+** DONE [#B] Give dev docs a try                                     :STUFF:
+CLOSED: [2016-09-16 Fri 14:32]
+- State "DONE"       from "TODO"       [2016-09-16 Fri 14:32]
+CLOCK: [2016-09-16 Fri 14:22]--[2016-09-16 Fri 14:29] =>  0:07
+http://devdocs.io/
+
+* Ideas
+** DONE [#B] One keystroke for note                                    :IDEA:
+CLOSED: [2016-08-28 Sun 15:43]
+- State "DONE"       from "TODO"       [2016-08-28 Sun 15:43]
+CLOCK: [2016-08-25 Thu 14:58]--[2016-08-25 Thu 14:59] =>  0:01
+$mod+space
+** DONE [#B] Search content of clipboard through google                :IDEA:
+CLOSED: [2016-08-28 Sun 15:43]
+- State "DONE"       from "TODO"       [2016-08-28 Sun 15:43]
+CLOCK: [2016-08-26 Fri 14:12]--[2016-08-26 Fri 14:13] =>  0:01
+$mod+s s 
+** CANCELLED [#B] Using easymotion in insert mode           :IDEA:CANCELLED:
+CLOSED: [2016-08-31 Wed 16:39]
+- State "CANCELLED"  from "TODO"       [2016-08-31 Wed 16:39] \\
+  I have gave it a try,it's seem to not work.
+CLOCK: [2016-08-28 Sun 16:04]--[2016-08-28 Sun 16:04] =>  0:00
+
+** DONE [#B] command not found  try to translate word                 :IDEA:
+CLOSED: [2016-08-31 Wed 13:45]
+- State "DONE"       from "TODO"       [2016-08-31 Wed 13:45]
+CLOCK: [2016-08-30 Tue 20:31]--[2016-08-30 Tue 20:31] =>  0:00
+
+** CANCELLED [#B] Auto fetch http://dictionary.cambridge.org/grammar/british-grammar/ :IDEA:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:48]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:48] \\
+  No time.
+CLOCK: [2016-08-30 Tue 20:59]--[2016-08-30 Tue 21:01] =>  0:02
+
+** DONE [#B] xx net launch automactically                             :IDEA:
+CLOSED: [2016-09-02 Fri 10:11]
+- State "DONE"       from "TODO"       [2016-09-02 Fri 10:11]
+CLOCK: [2016-08-30 Tue 22:19]--[2016-08-30 Tue 22:20] =>  0:01
+Using tmuxinator for tmux
+** DONE [#B] browser and terminal window size adjust automcatically   :IDEA:
+CLOSED: [2016-10-09 Sun 01:49]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:49]
+CLOCK: [2016-08-30 Tue 22:21]--[2016-08-30 Tue 22:22] =>  0:01
+Using i3 layout.
+
+** CANCELLED [#B] Hang QQ on laptop screen                  :IDEA:CANCELLED:
+CLOSED: [2016-10-09 Sun 01:49]
+- State "CANCELLED"  from "TODO"       [2016-10-09 Sun 01:49] \\
+  No time.
+CLOCK: [2016-08-30 Tue 22:28]--[2016-08-30 Tue 22:28] =>  0:00
+CLOCK: [2016-08-30 Tue 22:26]--[2016-08-30 Tue 22:28] =>  0:02
+
+** DONE [#C] Add unfamilar word through cli                           :IDEA:
+CLOSED: [2016-10-09 Sun 01:57]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:57]
+CLOCK: [2016-09-17 Sat 15:53]--[2016-09-17 Sat 15:54] =>  0:01
+
+** DONE [#C] Back to orgin workspace when finish note                 :IDEA:
+CLOSED: [2016-10-09 Sun 01:57]
+- State "DONE"       from "TODO"       [2016-10-09 Sun 01:57]
+CLOCK: [2016-09-29 Thu 19:22]--[2016-09-29 Thu 19:23] =>  0:01
 
