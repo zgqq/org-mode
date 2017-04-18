@@ -491,3 +491,578 @@ do not make the critical mistake of specifying only :<remote-branch-name> (with 
 * Quick notes
 ** M-! to input shell command emacs                                    :NOTE:
 CLOCK: [2016-10-09 Sun 02:25]--[2016-10-09 Sun 02:25] =>  0:00
+** show whitespace https://github.com/ntpeters/vim-better-whitespace :VIM:NOTE:
+CLOCK: [2016-10-09 Sun 02:50]--[2016-10-09 Sun 02:50] =>  0:00
+** gC to reload config file or modifying config file location vimfx :BROWSER:NOTE:
+CLOCK: [2016-10-09 Sun 03:18]--[2016-10-09 Sun 03:18] =>  0:00
+** Configure paginate vimfx                                   :BROWSER:NOTE:
+CLOCK: [2016-10-09 Sun 11:27]--[2016-10-09 Sun 11:27] =>  0:00
+const VIMFX_PREFS = {
+  'hints.chars': 'ehstirnoamupcwlfg dy',
+  'prevent_autofocus': true,
+  'prev_patterns': v => `[上前]\\s*一?\\s*[页张个篇章頁]  ${v}`,
+  'next_patterns': v => `[下后]\\s*一?\\s*[页张个篇章頁]  ${v}`,
+}
+Object.entries(VIMFX_PREFS).forEach(([pref, valueOrFunction]) => {
+  const value = typeof valueOrFunction === 'function'
+    ? valueOrFunction(vimfx.getDefault(pref))
+    : valueOrFunction
+  vimfx.set(pref, value)
+})
+** Restart firefox vimfx                                       :BROWSER:NOTE:
+CLOCK: [2016-10-09 Sun 11:45]--[2016-10-09 Sun 11:46] =>  0:01
+let map = (shortcuts, command, custom=false) => {
+    vimfx.set(`${custom ? 'custom.' : ''}mode.normal.${command}`, shortcuts)
+}
+vimfx.addCommand({
+    name: 'restart',
+    description: 'Restart Firefox',
+}, ({vim}) => {
+    Services.startup.quit(Services.startup.eRestart | Services.startup.eAttemptQuit)
+})
+map(',R', 'restart', true)
+** ipconfig has been obsolete,using the command of ip link show  :NOTE:LINUX:
+CLOCK: [2016-10-10 Mon 12:02]--[2016-10-10 Mon 12:03] =>  0:01
+** gi to focus the first input browser                         :BROWSER:NOTE:
+CLOCK: [2016-10-10 Mon 13:17]--[2016-10-10 Mon 13:19] =>  0:02
+** []  go to } the last function   ][ go to } the next function if the cursor is in a function then go to } the current function :VIM:NOTE:
+CLOCK: [2016-10-10 Mon 20:53]--[2016-10-10 Mon 20:56] =>  0:03
+** prefix+z is useful tmux                                             :NOTE:
+CLOCK: [2016-10-11 Tue 00:38]--[2016-10-11 Tue 00:38] =>  0:00
+
+** alias jzsh="tmux switch-client -t config-file:zshrc" quickly switch window of the other session :NOTE:
+CLOCK: [2016-10-11 Tue 01:16]--[2016-10-11 Tue 01:16] =>  0:00
+** Using org-clock-in to record time of task                           :NOTE:
+CLOCK: [2016-10-11 Tue 01:44]--[2016-10-11 Tue 01:44] =>  0:00
+** pacman -Qq to print all package of system                    :NOTE:LINUX:
+CLOCK: [2016-10-11 Tue 11:52]--[2016-10-11 Tue 11:53] =>  0:01
+** Do what is harder to ever.                                          :NOTE:
+CLOCK: [2016-10-11 Tue 13:08]--[2016-10-11 Tue 13:08] =>  0:00
+** on 表示事件 the screen may flash on resuming from suspend.                                                        :NOTE:
+CLOCK: [2016-10-12 Wed 13:44]--[2016-10-12 Wed 13:45] =>  0:01
+** enter key to select completion                                      :NOTE:
+CLOCK: [2016-10-12 Wed 23:39]--[2016-10-12 Wed 23:39] =>  0:00
+** tmux send-keys -t config-file:network.1 C-c '/home/zgq/archlinux/custom-aur/xx-net/src/XX-Net-3.2.6/start' Enter  :NOTE:
+CLOCK: [2016-10-13 Thu 00:14]--[2016-10-13 Thu 00:14] =>  0:00
+** The golden rule of git rebase is to never use it on public branches.                                                                 :NOTE:
+CLOCK: [2016-10-13 Thu 13:02]--[2016-10-13 Thu 13:02] =>  0:00
+** << is equals to doLast gradle                                       :NOTE:
+CLOCK: [2016-10-13 Thu 14:24]--[2016-10-13 Thu 14:24] =>  0:00
+** Make a little progress every day.                                                     :NOTE:
+CLOCK: [2016-10-13 Thu 14:26]--[2016-10-13 Thu 14:27] =>  0:01
+** Incremental build gradle                                            :NOTE:
+CLOCK: [2016-10-13 Thu 19:02]--[2016-10-13 Thu 19:02] =>  0:00
+** css" add " arround entire line.                                  :NOTE:
+CLOCK: [2016-10-13 Thu 19:41]--[2016-10-13 Thu 19:42] =>  0:01
+** n instead of c-n  org agenda                                        :NOTE:
+CLOCK: [2016-10-13 Thu 21:07]--[2016-10-13 Thu 21:08] =>  0:01
+** o instead of C-l vimfx                                      :BROWSER:NOTE:
+CLOCK: [2016-10-13 Thu 21:08]--[2016-10-13 Thu 21:09] =>  0:01
+** Bridge pattern seperates abstractions and implements                :NOTE:
+CLOCK: [2016-10-14 Fri 01:00]--[2016-10-14 Fri 01:01] =>  0:01
+** git push -u origin master  -u set upstream in order to use git push for next time Directly git :NOTE:
+CLOCK: [2016-10-14 Fri 01:03]--[2016-10-14 Fri 01:05] =>  0:02
+** Using pass to manage password                                       :NOTE:
+CLOCK: [2016-10-14 五 23:05]--[2016-10-14 五 23:06] =>  0:01
+** The message for the first time of Git commit is Initial commit      :NOTE:
+CLOCK: [2016-10-14 五 23:28]--[2016-10-14 五 23:29] =>  0:01
+** Learn english is way to improve productivity                        :NOTE:
+CLOCK: [2016-10-16 日 03:00]--[2016-10-16 日 03:02] =>  0:02
+** Improving history record zsh                                        :NOTE:
+CLOCK: [2016-10-16 日 18:08]--[2016-10-16 日 18:08] =>  0:00
+# Expand history
+setopt hist_expand
+# Ignore dups
+setopt hist_ignore_dups
+# Reduce spaces
+setopt hist_reduce_blanks
+# Ignore add history if space
+setopt hist_ignore_space
+** Writing testable code                                               :NOTE:
+CLOCK: [2016-10-16 日 22:49]--[2016-10-16 日 22:49] =>  0:00
+** gralde {} as a argument :                                        :NOTE:
+CLOCK: [2016-10-17 一 00:52]--[2016-10-17 一 00:53] =>  0:01
+#+BEGIN_SRC clojure
+task hello {
+    doLast {
+        ant.echo(level: "info", message: "hello from info priority!")
+    }
+}
+#+END_SRC
+** Viewing github.com/trending to collect repository                       :NOTE:
+CLOCK: [2016-10-17 一 12:57]--[2016-10-17 一 12:57] =>  0:00
+** Disable vimfx on github.com                                         :NOTE:
+CLOCK: [2016-10-17 一 13:03]--[2016-10-17 一 13:03] =>  0:00
+** Dynamic Programming                                                 :NOTE:
+CLOCK: [2016-10-17 一 13:18]--[2016-10-17 一 13:18] =>  0:00
+** Chain-of-responsibility pattern                                     :NOTE:
+CLOCK: [2016-10-17 一 21:28]--[2016-10-17 一 21:29] =>  0:01
+** ifn is a useful snippet                                :INTELLIJIDEA:NOTE:
+CLOCK: [2016-10-17 一 23:36]--[2016-10-17 一 23:37] =>  0:01
+** contentLines.forEach(line->sb.append(line));                        :NOTE:
+CLOCK: [2016-10-18 二 01:22]--[2016-10-18 二 01:23] =>  0:01
+instead of 
+#+BEGIN_SRC java
+  for (String str:contentLines){
+      sb.append(str);
+  }
+
+#+END_SRC
+** must install virtualbox-guest-iso package archlinux                 :NOTE:
+CLOCK: [2016-10-19 三 23:06]--[2016-10-19 三 23:06] =>  0:00
+** Virtualbox doesn't occupy keyboard                                  :NOTE:
+CLOCK: [2016-10-20 四 10:57]--[2016-10-20 四 10:58] =>  0:01
+** Plug 'junegunn/goyo.vim', { 'on': 'Goyo' } " distraction-free writing                                                                 :NOTE:
+CLOCK: [2016-10-20 四 12:08]--[2016-10-20 四 12:08] =>  0:00
+** ci' will look up the ' on the current line                     :VIM:NOTE:
+CLOCK: [2016-10-20 四 21:54]--[2016-10-20 四 21:58] =>  0:04
+** Separate subject from body with a blank line message                :NOTE:
+CLOCK: [2016-10-21 五 16:33]--[2016-10-21 五 16:33] =>  0:00
+** git show to show content of last commit                      :NOTE:
+CLOCK: [2016-10-21 五 16:39]--[2016-10-21 五 16:40] =>  0:01
+**  Limit the subject line to 50 characters  git commit                :NOTE:
+CLOCK: [2016-10-21 五 16:44]--[2016-10-21 五 16:44] =>  0:00
+** Capitalize the subject line  git commit                             :NOTE:
+CLOCK: [2016-10-21 五 16:46]--[2016-10-21 五 16:46] =>  0:00
+** Do not end the subject line with a period git commit message        :NOTE:
+CLOCK: [2016-10-21 五 16:46]--[2016-10-21 五 16:46] =>  0:00
+** Use the imperative mood in the subject line git commit message      :NOTE:
+CLOCK: [2016-10-21 五 16:48]--[2016-10-21 五 16:48] =>  0:00
+** Commit each fix or task as a separate change                                                                 :NOTE:
+CLOCK: [2016-10-21 五 17:26]--[2016-10-21 五 17:26] =>  0:00
+** Only commit when a block of work is complete git commit             :NOTE:
+CLOCK: [2016-10-21 五 17:27]--[2016-10-21 五 17:27] =>  0:00
+** Maven autoimport                                                    :NOTE:
+CLOCK: [2016-10-22 六 12:18]--[2016-10-22 六 12:18] =>  0:00
+** VCS version control system                                           :NOTE:
+CLOCK: [2016-10-22 六 13:00]--[2016-10-22 六 13:00] =>  0:00
+** Inotify Watches Limit idea                                          :NOTE:
+CLOCK: [2016-10-22 六 13:04]--[2016-10-22 六 13:04] =>  0:00
+** Add mirror to maven                                                  :NOTE:
+CLOCK: [2016-10-22 六 13:16]--[2016-10-22 六 13:17] =>  0:01
+    <mirror>
+        <id>nexus-aliyun</id>
+        <mirrorOf>*</mirrorOf>
+        <name>Nexus aliyun</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    </mirror> 
+** Viewing the Contents of a JAR File jar tf jar-file                                                                :NOTE:
+CLOCK: [2016-10-22 六 14:33]--[2016-10-22 六 14:33] =>  0:00
+** @ComponentScan be automatically registered as Spring Beans spring boot :NOTE:
+CLOCK: [2016-10-22 六 16:08]--[2016-10-22 六 16:08] =>  0:00
+** @SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan                                                                 :NOTE:
+CLOCK: [2016-10-22 六 16:12]--[2016-10-22 六 16:12] =>  0:00
+** java -jar to run jar                                                :NOTE:
+CLOCK: [2016-10-22 六 16:17]--[2016-10-22 六 16:17] =>  0:00
+** liveload refresh page                                               :NOTE:
+CLOCK: [2016-10-23 日 13:38]--[2016-10-23 日 13:38] =>  0:00
+** Customizing the restart classloader spring boot                     :NOTE:
+CLOCK: [2016-10-23 日 13:47]--[2016-10-23 日 13:47] =>  0:00
+** sdkman to install  development environment relative to java         :NOTE:
+CLOCK: [2016-10-23 日 15:33]--[2016-10-23 日 15:34] =>  0:01
+** idea uses local gradle                                               :NOTE:
+CLOCK: [2016-10-23 日 19:14]--[2016-10-23 日 19:15] =>  0:01
+** include 'awepost-service' in settings.gradle to include subproject  :NOTE:
+CLOCK: [2016-10-24 一 21:40]--[2016-10-24 一 21:40] =>  0:00
+** allprojects {} subprojects{}  gradle                                 :NOTE:
+CLOCK: [2016-10-24 一 23:03]--[2016-10-24 一 23:03] =>  0:00
+allprojects {
+    task hello << {task -> println "I'm $task.project.name" }
+}
+** configuration time execution time gradle                             :NOTE:
+CLOCK: [2016-10-24 一 23:31]--[2016-10-24 一 23:31] =>  0:00
+** C+enter to confirm idea                                             :NOTE:
+CLOCK: [2016-10-25 二 13:15]--[2016-10-25 二 13:15] =>  0:00
+** Flag source dir and test dir idea                                   :NOTE:
+CLOCK: [2016-10-25 二 14:15]--[2016-10-25 二 14:15] =>  0:00
+** Profile like dev,prod and test is for loading respective config in different environment :NOTE:
+CLOCK: [2016-10-25 二 16:41]--[2016-10-25 二 16:42] =>  0:01
+** @Bean is equal to <bean> spring framework                           :NOTE:
+CLOCK: [2016-10-26 三 00:51]--[2016-10-26 三 00:52] =>  0:01
+** @Configuration is equal to xml file                                 :NOTE:
+CLOCK: [2016-10-26 三 00:52]--[2016-10-26 三 00:53] =>  0:01
+**  gradle collection                                                  :NOTE:
+CLOCK: [2016-10-26 三 00:58]--[2016-10-26 三 00:59] =>  0:01
+def javaProjects = [ project(':sagan-site'), project(':sagan-indexer'), project(':sagan-common') ]
+def bootProjects = javaProjects - project(':sagan-common')
+** External dependencies for the build script                                                                 :NOTE:
+CLOCK: [2016-10-26 三 12:20]--[2016-10-26 三 12:20] =>  0:00
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'commons-codec', name: 'commons-codec', version: '1.2'
+    }
+}
+** Dependency management will control the versions of your project's direct and transitive dependencies                                              :NOTE:
+CLOCK: [2016-10-26 三 13:49]--[2016-10-26 三 13:50] =>  0:01
+** linux albert to search github,google quickly                        :NOTE:
+CLOCK: [2016-10-26 三 20:40]--[2016-10-26 三 20:41] =>  0:01
+** Startup virtualbox using albert                                        :NOTE:
+CLOCK: [2016-10-26 三 21:29]--[2016-10-26 三 21:30] =>  0:01
+** [p paste up ]p paste below and indent [<space> add new line up ]<space>  add new line down :VIM:NOTE:
+CLOCK: [2016-10-27 四 00:05]--[2016-10-27 四 00:07] =>  0:02
+** allow for 考虑，所以，导致                                          :NOTE:
+CLOCK: [2016-10-27 四 00:08]--[2016-10-27 四 00:09] =>  0:01
+** git checkout -b dev create and switch to  a new branch                 :NOTE:
+CLOCK: [2016-10-27 四 09:44]--[2016-10-27 四 09:45] =>  0:01
+** Automatic restart spring boot                                       :NOTE:
+CLOCK: [2016-10-27 四 20:26]--[2016-10-27 四 20:26] =>  0:00
+As DevTools monitors classpath resources, the only way to trigger a restart is to update the classpath.
+ The way in which you cause the classpath to be updated depends on the IDE that you are using. In Eclipse,
+ saving a modified file will cause the classpath to be updated and trigger a restart. In IntelliJ IDEA,
+ building the project (Build → Make Project) will have the same effect.
+**  Make Project Automactically                          :INTELLIJIDEA:NOTE:
+CLOCK: [2016-10-27 四 20:29]--[2016-10-27 四 20:29] =>  0:00
+You can also additionally enable ‘Make Project Automatically’ inside IntelliJ IDEA to automatically 
+compile your code whenever a file is saved.
+**  Computed Properties  vue                                           :NOTE:
+CLOCK: [2016-10-29 六 13:11]--[2016-10-29 六 13:11] =>  0:00
+var vm = new Vue({
+  el: '#example',
+  data: {
+    message: 'Hello'
+  },
+  computed: {
+    // a computed getter
+    reversedMessage: function () {
+      // `this` points to the vm instance
+      return this.message.split('').reverse().join('')
+    }
+  }
+})
+** Template v-for vue                                                  :NOTE:
+CLOCK: [2016-10-29 六 13:42]--[2016-10-29 六 13:43] =>  0:01
+Similar to template v-if, you can also use a <template> tag with v-for to render a block of multiple elements.
+For example:
+
+#+BEGIN_SRC js
+  <ul>
+    <template v-for="item in items">
+      <li>{{ item.msg }}</li>
+      <li class="divider"></li>
+    </template>
+  </ul>
+#+END_SRC
+** mvvm                                                              :NOTE:
+CLOCK: [2016-10-29 六 16:21]--[2016-10-29 六 16:22] =>  0:01
+** Single slot vue                                                     :NOTE:
+CLOCK: [2016-10-30 日 00:09]--[2016-10-30 日 00:09] =>  0:00
+<div>
+  <h2>I'm the child title</h2>
+  <slot>
+    This will only be displayed if there is no content
+    to be distributed.
+  </slot>
+</div>
+
+And a parent that uses the component:
+
+<div>
+  <h1>I'm the parent title</h1>
+  <my-component>
+    <p>This is some original content</p>
+    <p>This is some more original content</p>
+  </my-component>
+</div>
+
+The rendered result will be:
+
+<div>
+  <h1>I'm the parent title</h1>
+  <div>
+    <h2>I'm the child title</h2>
+    <p>This is some original content</p>
+    <p>This is some more original content</p>
+  </div>
+</div>
+** Slot vue                                                            :NOTE:
+CLOCK: [2016-10-30 日 00:24]--[2016-10-30 日 00:24] =>  0:00
+Slots allow the external environment to compose the component with extra content.
+** Props vue                                                           :NOTE:
+CLOCK: [2016-10-30 日 00:24]--[2016-10-30 日 00:24] =>  0:00
+Props allow the external environment to pass data into the component
+** pacman -Sc to clean the package cache                               :NOTE:
+CLOCK: [2016-10-30 日 21:09]--[2016-10-30 日 21:09] =>  0:00
+** execute top to view memory usage then press shift+m                 :NOTE:
+CLOCK: [2016-10-30 日 21:23]--[2016-10-30 日 21:24] =>  0:01
+** Add ignore plugin to idea                             :INTELLIJIDEA:NOTE:
+CLOCK: [2016-10-30 日 21:52]--[2016-10-30 日 21:53] =>  0:01
+** ) sentence forward                                                  :NOTE:
+CLOCK: [2016-10-31 一 20:53]--[2016-10-31 一 20:54] =>  0:01
+CLOCK: [2016-10-31 一 22:56]--[2016-10-31 一 22:57] =>  0:01
+** posfix completion .cast to cast type                   :INTELLIJIDEA:NOTE:
+CLOCK: [2016-11-02 三 21:01]--[2016-11-02 三 21:02] =>  0:01
+** posfix complete .field to extract field                             :NOTE:
+** C+S+enter to complete more code                        :INTELLIJIDEA:NOTE:
+CLOCK: [2016-11-04 五 09:03]--[2016-11-04 五 09:03] =>  0:00
+** C-q to view document                                 :INTELLIJIDEA:NOTE:
+CLOCK: [2016-11-04 五 19:54]--[2016-11-04 五 19:55] =>  0:01
+** rounded border                                                      :NOTE:
+CLOCK: [2016-11-05 六 21:53]--[2016-11-05 六 21:53] =>  0:00
+** C-f12 to member of class                              :INTELLIJIDEA:NOTE:
+CLOCK: [2016-11-06 日 14:44]--[2016-11-06 日 14:45] =>  0:01
+** convert -delay 15 -loop 0 *.jpg  anim.gif                           :NOTE:
+CLOCK: [2016-11-06 日 20:52]--[2016-11-06 日 20:52] =>  0:00
+** ffmpeg -i fasthelper.mkv -r 2 image%d.jpg                           :NOTE:
+CLOCK: [2016-11-06 日 20:52]--[2016-11-06 日 20:52] =>  0:00
+** Plug annotation = applicationContext.findAnnotationOnBean(s, Plug.class); :NOTE:
+CLOCK: [2016-11-08 二 14:32]--[2016-11-08 二 14:33] =>  0:01
+** spring ClassPathResource for loading classpath resources               :NOTE:
+CLOCK: [2016-11-09 三 13:14]--[2016-11-09 三 13:14] =>  0:00
+**  Lock string                                                      :NOTE:
+CLOCK: [2016-11-10 四 15:15]--[2016-11-10 四 15:16] =>  0:01
+#+BEGIN_SRC java
+      protected Object getClassLoadingLock(String className) {
+          Object lock = this;
+          if (parallelLockMap != null) {
+              Object newLock = new Object();
+              lock = parallelLockMap.putIfAbsent(className, newLock);
+              if (lock == null) {
+                  lock = newLock;
+              }
+          }
+          return lock;
+      }
+
+#+END_SRC
+** gradle -q task name                                                    :NOTE:
+CLOCK: [2016-11-10 四 22:11]--[2016-11-10 四 22:12] =>  0:01
+**  Gradle Jar task                                                    :NOTE:
+CLOCK: [2016-11-12 六 10:12]--[2016-11-12 六 10:13] =>  0:01
+#+BEGIN_SRC C 
+task searchJar(type: Jar) {
+    archiveName = "web-searcher.jar"
+    includeEmptyDirs = false
+    from sourceSets.main.output.classesDir
+    include '**/support/searcher/*'
+    from 'build/resources/main'
+    include '**/META-INF/**/*.xml'
+}
+#+END_SRC
+** Simplescreenrecorder for linux                                      :NOTE:
+CLOCK: [2016-11-12 六 15:36]--[2016-11-12 六 15:36] =>  0:00
+** vim delete line of only one char ;                              :VIM:NOTE:
+CLOCK: [2016-11-13 日 22:12]--[2016-11-13 日 22:13] =>  0:01
+g/^\s*;\s*$/d
+** setxkbmap to reset xmodmap                                          :NOTE:
+CLOCK: [2016-11-16 三 13:41]--[2016-11-16 三 13:41] =>  0:00
+**  i3 back_and_forth                                                  :NOTE:
+CLOCK: [2016-11-17 四 15:59]--[2016-11-17 四 15:59] =>  0:00
+bindsym $mod+b workspace back_and_forth
+** SwingUtilities.invokeLater invokeLaterAndWait                       :NOTE:
+CLOCK: [2016-11-18 五 11:02]--[2016-11-18 五 11:02] =>  0:00
+** Gateway                                                                :NOTE:
+CLOCK: [2016-11-19 六 13:07]--[2016-11-19 六 13:08] =>  0:01
+On the Internet, the node that's a stopping point can be a gateway or a host node.
+** column like '%searchcontent%'                                       :NOTE:
+CLOCK: [2016-11-20 日 16:04]--[2016-11-20 日 16:05] =>  0:01
+** conditional breakpoint                                                   :NOTE:
+CLOCK: [2016-11-21 一 09:15]--[2016-11-21 一 09:16] =>  0:01
+** Writing test is critical                                               :NOTE:
+CLOCK: [2016-11-24 四 16:49]--[2016-11-24 四 17:05] =>  0:16
+** C-a to incremental number                                      :VIM:NOTE:
+CLOCK: [2016-11-25 五 13:56]--[2016-11-25 五 13:56] =>  0:00
+** idea alt+j for multiple cursors                                     :NOTE:
+CLOCK: [2016-11-26 六 14:48]--[2016-11-26 六 14:48] =>  0:00
+**  i3 multiple monitors                                                  :NOTE:
+CLOCK: [2016-11-27 日 20:02]--[2016-11-27 日 20:02] =>  0:00
+exec --no-startup-id "xrandr --output eDP1 --auto --left-of VGA1"
+workspace 1 output VGA1
+workspace 2 output VGA1
+** set backlight xbacklight -set 30                                    :NOTE:
+CLOCK: [2016-11-27 日 20:05]--[2016-11-27 日 20:05] =>  0:00
+** A interface only has a mapper,a mapper only has a table mybatis     :NOTE:
+CLOCK: [2017-02-19 Sun 21:43]--[2017-02-19 Sun 21:45] =>  0:02
+will more clear,method name will not that verbose
+** Docker read: connection reset by peer                             :NOTE:
+CLOCK: [2017-03-05 日 21:31]--[2017-03-05 日 21:32] =>  0:01
+Try more times
+** docker must set domestic image                                      :NOTE:
+CLOCK: [2017-03-05 日 22:22]--[2017-03-05 日 22:22] =>  0:00
+** Run docker command for redis                                        :NOTE:
+CLOCK: [2017-03-06 一 16:27]--[2017-03-06 一 16:28] =>  0:01
+docker run --name redis -d --restart=always \
+  --publish 6379:6379 \
+  --volume /srv/docker/redis:/var/lib/redis \
+  sameersbn/redis:latest
+** VOLUME is used to mount directory                                   :NOTE:
+** Use data1 data2 instead of data data2                               :NOTE:
+CLOCK: [2017-03-07 二 16:34]--[2017-03-07 二 16:35] =>  0:01
+** Store time to mysql,mysql maybe handle it ms                        :NOTE:
+CLOCK: [2017-03-07 二 18:43]--[2017-03-07 二 18:44] =>  0:01
+** Format json                                                         :NOTE:
+CLOCK: [2017-03-08 三 15:00]--[2017-03-08 三 15:00] =>  0:00
+echo '{
+    "data":
+    {"page_num":1, "page_size": 10}}'|jq
+** Nutstore prevent zip package                                        :NOTE:
+CLOCK: [2017-03-08 三 17:12]--[2017-03-08 三 17:12] =>  0:00
+** Don't use spring dependencies management                                   :NOTE:
+CLOCK: [2017-03-09 四 09:40]--[2017-03-09 四 09:40] =>  0:00
+** RestController("component name")                                    :NOTE:
+CLOCK: [2017-03-09 四 11:24]--[2017-03-09 四 11:25] =>  0:01
+** alias tips for zsh                                                  :NOTE:
+CLOCK: [2017-03-10 五 09:31]--[2017-03-10 五 09:31] =>  0:00
+** Fix /usr/local                                                    :NOTE:
+CLOCK: [2017-03-10 五 10:25]--[2017-03-10 五 10:25] =>  0:00
+sudo chown -R $(whoami) /usr/local/{bin,share}
+** fpath for autoloading                                               :NOTE:
+CLOCK: [2017-03-10 五 10:26]--[2017-03-10 五 10:26] =>  0:00
+** Fix fpath permission                                                :NOTE:
+CLOCK: [2017-03-10 五 10:31]--[2017-03-10 五 10:31] =>  0:00
+# .zshenv or .zshrc
+fpath=( "$HOME/.zfunctions" $fpath )
+** jq '.' response > newfile to format json                            :NOTE:
+CLOCK: [2017-03-10 五 11:44]--[2017-03-10 五 11:44] =>  0:00
+** pipi don't work on same pipe of file                                :NOTE:
+CLOCK: [2017-03-10 五 11:56]--[2017-03-10 五 11:56] =>  0:00
+** mycli                                                               :NOTE:
+CLOCK: [2017-03-10 五 12:22]--[2017-03-10 五 12:22] =>  0:00
+** idea tool window float mode                                         :NOTE:
+CLOCK: [2017-03-10 五 14:12]jjj
+** fast json bug 1.2.10 1.2.20                                         :NOTE:
+CLOCK: [2017-03-10 五 19:04]--[2017-03-10 五 19:16] =>  0:12
+CLOCK: [2017-03-10 五 19:04]--[2017-03-10 五 19:04] =>  0:00
+** Open Data Processing Service， 简称ODPS                                                                 :NOTE:
+CLOCK: [2017-03-10 五 19:16]--[2017-03-10 五 19:16] =>  0:00
+** Ctrl-b :new -s <name>                                                                  :NOTE:
+CLOCK: [2017-03-11 六 11:39]--[2017-03-11 六 11:40] =>  0:01
+** vim :Sex                                                            :NOTE:
+CLOCK: [2017-03-11 六 12:24]--[2017-03-11 六 12:24] =>  0:00
+** python version                                                      :NOTE:
+CLOCK: [2017-03-15 三 11:36]--[2017-03-15 三 11:37] =>  0:01
+** Jstorm localhost                                                    :NOTE:
+CLOCK: [2017-03-15 三 13:00]--[2017-03-15 三 13:00] =>  0:00
+** ui node https://github.com/alibaba/jstorm/issues/250                :NOTE:
+CLOCK: [2017-03-15 三 13:20]--[2017-03-15 三 13:20] =>  0:00
+** Should set foreign key                                              :NOTE:
+CLOCK: [2017-03-16 四 14:20]--[2017-03-16 四 14:20] =>  0:00
+** page don't use all                                                  :NOTE:
+CLOCK: [2017-03-16 四 15:57]--[2017-03-16 四 15:57] =>  0:00
+** maven provided only compile don't run                               :NOTE:
+CLOCK: [2017-03-17 五 10:49]--[2017-03-17 五 10:49] =>  0:00
+** vim J for join                                                      :NOTE:
+CLOCK: [2017-03-17 五 12:06]--[2017-03-17 五 12:06] =>  0:00
+** Prevent ssh timeout                                                 :NOTE:
+CLOCK: [2017-03-17 五 17:27]--[2017-03-17 五 17:28] =>  0:01
+** Don't modify source                                                 :NOTE:
+CLOCK: [2017-03-17 五 19:45]--[2017-03-17 五 19:45] =>  0:00
+** SelectProvider SQL injection                                        :NOTE:
+CLOCK: [2017-03-17 五 20:43]--[2017-03-17 五 20:43] =>  0:00
+** Why id better than content                                          :NOTE:
+CLOCK: [2017-03-17 五 20:55]--[2017-03-17 五 20:55] =>  0:00
+** fzf:Alt+c to enter directory                                        :NOTE:
+CLOCK: [2017-03-19 日 10:33]--[2017-03-19 日 10:33] =>  0:00
+** idea live template                                                 :NOTE:
+CLOCK: [2017-03-19 日 11:33]--[2017-03-19 日 11:33] =>  0:00
+** Run use logger                                                      :NOTE:
+CLOCK: [2017-03-19 日 17:54]--[2017-03-19 日 17:54] =>  0:00
+** rs.getDate is real date                                             :NOTE:
+CLOCK: [2017-03-20 一 14:20]--[2017-03-20 一 14:20] =>  0:00
+** apache RandomStringUtils for test                                   :NOTE:
+CLOCK: [2017-03-20 一 18:19]--[2017-03-20 一 18:20] =>  0:01
+** Joiner join                                                         :NOTE:
+CLOCK: [2017-03-20 一 18:50]--[2017-03-20 一 18:51] =>  0:01
+** Why should use code to write integration test                       :NOTE:
+CLOCK: [2017-03-21 二 09:45]--[2017-03-21 二 09:46] =>  0:01
+** care mybatis cache in test                                          :NOTE:
+CLOCK: [2017-03-21 二 11:03]--[2017-03-21 二 11:03] =>  0:00
+** polipo for sock convert http                                        :NOTE:
+CLOCK: [2017-03-21 二 15:57]--[2017-03-21 二 15:58] =>  0:01
+** fuck Properties                                                   :NOTE:
+CLOCK: [2017-03-21 二 21:43]--[2017-03-21 二 21:43] =>  0:00
+** serialization don't execute constructor                             :NOTE:
+CLOCK: [2017-03-22 三 10:11]--[2017-03-22 三 10:12] =>  0:01
+** storm bolt or spout constructor only is executed once time          :NOTE:
+CLOCK: [2017-03-22 三 16:34]--[2017-03-22 三 16:35] =>  0:01
+** [{ to jump to last {                                                :NOTE:
+CLOCK: [2017-03-23 四 20:47]--[2017-03-23 四 20:48] =>  0:01
+** java8 StringJoiner                                                  :NOTE:
+CLOCK: [2017-03-24 五 19:00]--[2017-03-24 五 19:00] =>  0:00
+** Use throwable                                                       :NOTE:
+CLOCK: [2017-03-25 六 12:22]--[2017-03-25 六 12:22] =>  0:00
+** Use ./gradle idea instead of auto generate                          :NOTE:
+CLOCK: [2017-03-25 六 13:21]--[2017-03-25 六 13:22] =>  0:01
+** Don't use table as argument mybatis                                 :NOTE:
+CLOCK: [2017-03-25 六 13:38]--[2017-03-25 六 13:38] =>  0:00
+** Git hook                                                            :NOTE:
+CLOCK: [2017-03-27 一 09:57]--[2017-03-27 一 09:57] =>  0:00
+** jq 'keys' for extracting all keys                                   :NOTE:
+CLOCK: [2017-03-27 一 16:22]--[2017-03-27 一 16:22] =>  0:00
+** ./gradlew dependencies                                                  :NOTE:
+CLOCK: [2017-03-27 一 17:59]--[2017-03-27 一 17:59] =>  0:00
+** glg for git log                                                     :NOTE:
+CLOCK: [2017-03-28 二 09:30]--[2017-03-28 二 09:30] =>  0:00
+** normal! normal                                                      :NOTE:
+CLOCK: [2017-03-30 四 22:32]--[2017-03-30 四 22:32] =>  0:00
+** gradle publishToMavenLocal                                                                 :NOTE:
+CLOCK: [2017-03-31 五 10:26]--[2017-03-31 五 10:26] =>  0:00
+** pOPOST<esc>vip:s/^/    / don't work                                 :NOTE:
+CLOCK: [2017-03-31 五 14:16]--[2017-03-31 五 14:17] =>  0:01
+** lib don't log error                                                 :NOTE:
+CLOCK: [2017-03-31 五 17:40]--[2017-03-31 五 17:41] =>  0:01
+** git checkout commit file                                            :NOTE:
+CLOCK: [2017-03-31 五 21:19]--[2017-03-31 五 21:19] =>  0:00
+** Catch throwable instead of exception                                :NOTE:
+CLOCK: [2017-04-01 六 14:30]--[2017-04-01 六 14:30] =>  0:00
+** Restart docker after upgrade                                        :NOTE:
+CLOCK: [2017-04-01 六 20:36]--[2017-04-01 六 20:36] =>  0:00
+** git add -u                                                                 :NOTE:
+CLOCK: [2017-04-02 Sun 02:52]--[2017-04-02 Sun 02:52] =>  0:00
+** alt+1 for tab qq                                                    :NOTE:
+CLOCK: [2017-04-02 Sun 03:37]--[2017-04-02 Sun 03:37] =>  0:00
+** timedatectl set-ntp true                                            :NOTE:
+CLOCK: [2017-04-03 Mon 09:28]--[2017-04-03 Mon 09:29] =>  0:01
+** mv -- -NSConflict-zgq.gitignore /tmp                                :NOTE:
+CLOCK: [2017-04-03 Mon 10:10]--[2017-04-03 Mon 10:10] =>  0:00
+** top -o %MEM                                                         :NOTE:
+CLOCK: [2017-04-03 一 16:35]--[2017-04-03 一 16:35] =>  0:00
+** mysql Read don't block                                              :NOTE:
+CLOCK: [2017-04-03 一 19:03]--[2017-04-03 一 19:04] =>  0:01
+** mvn clean install -DskipTests                                                                 :NOTE:
+CLOCK: [2017-04-04 Tue 17:19]--[2017-04-04 Tue 17:19] =>  0:00
+** ip addr show                                                        :NOTE:
+CLOCK: [2017-04-04 Tue 17:19]--[2017-04-04 Tue 17:19] =>  0:00
+** globalGrouping                                                      :NOTE:
+CLOCK: [2017-04-04 Tue 18:42]--[2017-04-04 Tue 18:42] =>  0:00
+** mysql -h localhost -P 3306 --protocol=tcp -u root -pzgqq            :NOTE:
+CLOCK: [2017-04-04 Tue 21:25]--[2017-04-04 Tue 21:25] =>  0:00
+** Add correct host key in /home/zgq/.ssh/known_hosts to get rid of this message. :NOTE:
+CLOCK: [2017-04-05 三 20:45]--[2017-04-05 三 20:45] =>  0:00
+** sshpass                                                             :NOTE:
+CLOCK: [2017-04-06 四 09:33]--[2017-04-06 四 09:33] =>  0:00
+** Json use underline                                                  :NOTE:
+CLOCK: [2017-04-06 四 15:24]--[2017-04-06 四 15:24] =>  0:00
+** vim :Ag                                                             :NOTE:
+CLOCK: [2017-04-06 四 17:46]--[2017-04-06 四 17:46] =>  0:00
+** sshpass -p "U_8M50_WbjQfTc5ep" ssh -o StrictHostKeyChecking=no admin@120.26.103.7 -t "cd /tmp; bash --login" :NOTE:
+CLOCK: [2017-04-07 五 13:14]--[2017-04-07 五 13:14] =>  0:00
+** docker run --name redis -d --restart=always --publish 6379:6379 --volume /docker/redis30:/var/lib/redis redis:3.0 --requirepass zgqq :NOTE:
+CLOCK: [2017-04-09 Sun 13:04]--[2017-04-09 Sun 13:04] =>  0:00
+** ./gradlew build -x test                                             :NOTE:
+CLOCK: [2017-04-09 Sun 13:45]--[2017-04-09 Sun 13:45] =>  0:00
+** Run context configuration from editor                               :NOTE:
+CLOCK: [2017-04-10 Mon 00:20]--[2017-04-10 Mon 00:21] =>  0:01
+** tmux disable confirmation prompt on kill-window                                                                 :NOTE:
+CLOCK: [2017-04-10 Mon 00:51]--[2017-04-10 Mon 00:51] =>  0:00
+**     tmux switch-client -c /dev/pts/0 -t startup-layout:network      :NOTE:
+CLOCK: [2017-04-10 Mon 01:06]--[2017-04-10 Mon 01:06] =>  0:00
+** mysqldump -h localhost -P3306 --protocol=tcp -u root -pzgqq --no-data loveshowdb > db.sql :NOTE:
+CLOCK: [2017-04-10 一 11:35]--[2017-04-10 一 11:35] =>  0:00
+** ./gradlew publishToMavenLocal                                                                 :NOTE:
+CLOCK: [2017-04-10 一 22:05]--[2017-04-10 一 22:05] =>  0:00
+** Double to long                                                      :NOTE:
+CLOCK: [2017-04-11 二 09:42]--[2017-04-11 二 09:42] =>  0:00
+** ./deploy.sh $(find /home/admin/release -type f -regex '.*voss.*\.war' | sort -t- -k4 -r | head -n 1); :NOTE:
+CLOCK: [2017-04-11 二 14:54]--[2017-04-11 二 14:54] =>  0:00
+** git diff myfile.txt                                                                 :NOTE:
+CLOCK: [2017-04-11 二 16:56]--[2017-04-11 二 16:56] =>  0:00
+
+** columnObjs := make([]*Column, 0, 200) 		columnObjs = append(columnObjs, col) :NOTE:
+CLOCK: [2017-04-15 六 11:54]--[2017-04-15 六 11:55] =>  0:01
+** vim C-o for new line above                                          :NOTE:
+CLOCK: [2017-04-16 Sun 13:43]--[2017-04-16 Sun 13:43] =>  0:00
+** tmux use number to choose session                                   :NOTE:
+CLOCK: [2017-04-16 Sun 13:45]--[2017-04-16 Sun 13:45] =>  0:00
